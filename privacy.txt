@@ -1,0 +1,29 @@
+Effective Date: 2023-06-29
+
+Thank you for using Bookerei, a desktop software developed by Dalibor Trisic. This Privacy Policy outlines how we collect, use, disclose, and protect the information provided or generated when you use Bookerei.
+
+Information We Collect
+Bookerei is designed to respect your privacy, and as such, it does not collect any personally identifiable information (PII) or personal data from its users. We do not request or store any information that can be used to identify you, such as your name, address, email address, or phone number.
+
+Automatically Collected Information
+Bookerei does not collect any non-personally identifiable information automatically.
+
+Third-Party Services
+Bookerei does not integrate or utilize any third-party services or libraries that could potentially collect user data.
+
+Data Usage and Disclosure
+Since Bookerei does not collect any personal data, we do not use or disclose any user information for any purpose.
+
+Data Security
+We take the security of your information seriously. We employ industry-standard security measures to protect against unauthorized access, alteration, disclosure, or destruction of any data stored within Bookerei.
+
+Children's Privacy
+Bookerei is safe for use by individuals under the age of 13.
+
+Changes to this Privacy Policy
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the updated policy on our website or through other communication channels. It is advisable to review this Privacy Policy periodically for any changes. Your continued use of Bookerei after any modifications to this Privacy Policy constitutes your acceptance of such changes.
+
+Contact Us
+If you have any questions or concerns regarding this Privacy Policy or Bookerei's privacy practices, please contact us at d3lboy[at]gmail.com.
+
+By using Bookerei, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
