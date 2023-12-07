@@ -1,29 +1,22 @@
-Effective Date: 2023-06-29
-
-Thank you for using Bookerei, a desktop software developed by Dalibor Trisic. This Privacy Policy outlines how we collect, use, disclose, and protect the information provided or generated when you use Bookerei.
+Privacy Policy
+Bookerei is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information about you when you use our software.
 
 Information We Collect
-Bookerei is designed to respect your privacy, and as such, it does not collect any personally identifiable information (PII) or personal data from its users. We do not request or store any information that can be used to identify you, such as your name, address, email address, or phone number.
+We do not collect any personal data from you. However, we may collect errors, exceptions, and telemetry data in order to improve the app.
 
-Automatically Collected Information
-Bookerei does not collect any non-personally identifiable information automatically.
+How We Use Your Information
+We use the information we collect to improve the app and to provide support to our users.
 
-Third-Party Services
-Bookerei does not integrate or utilize any third-party services or libraries that could potentially collect user data.
+Sharing of Your Information
+We do not share your information with any third parties.
 
-Data Usage and Disclosure
-Since Bookerei does not collect any personal data, we do not use or disclose any user information for any purpose.
+Security of Your Information
+We take reasonable measures to protect your information from unauthorized access, use, or disclosure.
 
-Data Security
-We take the security of your information seriously. We employ industry-standard security measures to protect against unauthorized access, alteration, disclosure, or destruction of any data stored within Bookerei.
-
-Children's Privacy
-Bookerei is safe for use by individuals under the age of 13.
-
-Changes to this Privacy Policy
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the updated policy on our website or through other communication channels. It is advisable to review this Privacy Policy periodically for any changes. Your continued use of Bookerei after any modifications to this Privacy Policy constitutes your acceptance of such changes.
+Changes to Our Privacy Policy
+We may update our Privacy Policy from time to time. If we make material changes to how we treat our users’ personal information, we will notify you by email to the email address specified in your account or through a notice on our website.
 
 Contact Us
-If you have any questions or concerns regarding this Privacy Policy or Bookerei's privacy practices, please contact us at d3lboy[at]gmail.com.
+If you have any questions about our Privacy Policy, please contact us at bookerei.software@gmail.com.
 
-By using Bookerei, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
+Please note that this is a sample privacy policy and should be reviewed by a legal professional to ensure that it meets the specific needs of your software and complies with all applicable laws and regulations.
