@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add to the clipboard" xml:space="preserve">
+    <value>Додај на радну површину</value>
+  </data>
+  <data name="Added recently" xml:space="preserve">
+    <value>Недавно додате</value>
+  </data>
+  <data name="Application version" xml:space="preserve">
+    <value>Верзија апликације</value>
+  </data>
+  <data name="Apply changes" xml:space="preserve">
+    <value>Примени измене</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Book already exists!" xml:space="preserve">
+    <value>Књига већ постоји!</value>
+  </data>
+  <data name="Books" xml:space="preserve">
+    <value>Књиге</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Одустани</value>
+    <comment>Button</comment>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Промени</value>
+  </data>
+  <data name="Change image" xml:space="preserve">
+    <value>Промени слику</value>
+  </data>
+  <data name="Choose the shelf to put on" xml:space="preserve">
+    <value>Изабери полицу</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Уклони</value>
+  </data>
+  <data name="Click on confirm button" xml:space="preserve">
+    <value>Кликни на дугме за потврду</value>
+  </data>
+  <data name="Click to select the shelf" xml:space="preserve">
+    <value>Изабери полицу</value>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Радна површина</value>
+  </data>
+  <data name="Confirm the import" xml:space="preserve">
+    <value>Потврди унос</value>
+  </data>
+  <data name="Create shelf" xml:space="preserve">
+    <value>Направи полицу</value>
+  </data>
+  <data name="Delete book" xml:space="preserve">
+    <value>Обриши књигу</value>
+  </data>
+  <data name="Delete shelf" xml:space="preserve">
+    <value>Онриши полицу</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Обриши</value>
+  </data>
+  <data name="Discard changes" xml:space="preserve">
+    <value>Поништи промене</value>
+  </data>
+  <data name="Do not remind me for this book" xml:space="preserve">
+    <value>Не подећај ме за ову књигу</value>
+  </data>
+  <data name="Do you want to delete" xml:space="preserve">
+    <value>Да ли желите да избришете</value>
+  </data>
+  <data name="Done!" xml:space="preserve">
+    <value>Готово!</value>
+  </data>
+  <data name="Edit description" xml:space="preserve">
+    <value>Измени опис</value>
+  </data>
+  <data name="Edit name" xml:space="preserve">
+    <value>Измени име</value>
+  </data>
+  <data name="Edit tags" xml:space="preserve">
+    <value>Измени тагове</value>
+  </data>
+  <data name="Edit title" xml:space="preserve">
+    <value>Измени наслов</value>
+  </data>
+  <data name="Enter the shelf name" xml:space="preserve">
+    <value>Унеси назив полице</value>
+  </data>
+  <data name="Fetch info" xml:space="preserve">
+    <value>Прикупи информације</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Почетна</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Увези</value>
+  </data>
+  <data name="Processed" xml:space="preserve">
+    <value>Обрађено</value>
+  </data>
+  <data name="Name conflict" xml:space="preserve">
+    <value>Конфликт са именом</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Следећа</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Не</value>
+    <comment>Button</comment>
+  </data>
+  <data name="No shelf selected" xml:space="preserve">
+    <value>Није на полици</value>
+  </data>
+  <data name="Nothing here. Add at least one book and do some actions." xml:space="preserve">
+    <value>Овде је тако проазно. Додајте бар једну књигу.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>У реду</value>
+    <comment>Button</comment>
+  </data>
+  <data name="Open book location" xml:space="preserve">
+    <value>Отвори локацију</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Претходна</value>
+  </data>
+  <data name="Read" xml:space="preserve">
+    <value>Прочитано</value>
+  </data>
+  <data name="Reading" xml:space="preserve">
+    <value>Тренутно читам</value>
+  </data>
+  <data name="Remove from the shelf" xml:space="preserve">
+    <value>Уклони са полице</value>
+  </data>
+  <data name="Respository path" xml:space="preserve">
+    <value>Складиште</value>
+  </data>
+  <data name="Scan folder and subfolders" xml:space="preserve">
+    <value>Скенирај фолдер</value>
+  </data>
+  <data name="See books" xml:space="preserve">
+    <value>Погледај књиге</value>
+  </data>
+  <data name="Select &amp; obtain info" xml:space="preserve">
+    <value>Изабери и добави информације</value>
+  </data>
+  <data name="Select book(s)" xml:space="preserve">
+    <value>Изабери књигу(е)</value>
+  </data>
+  <data name="Send by email" xml:space="preserve">
+    <value>Пошаљи е-маилом</value>
+  </data>
+  <data name="Separate by , or ;" xml:space="preserve">
+    <value>Одвоји са , или ;</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Подешавања</value>
+  </data>
+  <data name="Shelves" xml:space="preserve">
+    <value>Полице</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Прикажи</value>
+    <comment>Show n books</comment>
+  </data>
+  <data name="Show 100" xml:space="preserve">
+    <value>Прикажи 100</value>
+  </data>
+  <data name="Show 15" xml:space="preserve">
+    <value>Прикажи 15</value>
+  </data>
+  <data name="Show 30" xml:space="preserve">
+    <value>Прикажи 30</value>
+  </data>
+  <data name="Show 50" xml:space="preserve">
+    <value>Прикажи 50</value>
+  </data>
+  <data name="Show all" xml:space="preserve">
+    <value>Прикажи све</value>
+  </data>
+  <data name="Show all for" xml:space="preserve">
+    <value>Прикажи за све</value>
+  </data>
+  <data name="There is already one shelf with the name" xml:space="preserve">
+    <value>Већ постоји полица са именом</value>
+  </data>
+  <data name="Type to search..." xml:space="preserve">
+    <value>Куцај било шта да започнеш претрагу</value>
+  </data>
+  <data name="View in Folder" xml:space="preserve">
+    <value>Погледај у фолдеру</value>
+  </data>
+  <data name="WantToRead" xml:space="preserve">
+    <value>Желим да читам</value>
+  </data>
+  <data name="Which one is your book?" xml:space="preserve">
+    <value>Која је твоја књига?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+    <comment>Button</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Опис књиге</value>
+    <comment>Details page, book description tab.</comment>
+  </data>
+  <data name="From e-book" xml:space="preserve">
+    <value>Опис из е-боок фајла</value>
+    <comment>Book details, generic description from e-book. Tab.</comment>
+  </data>
+  <data name="Mark as..." xml:space="preserve">
+    <value>Означи као...</value>
+    <comment>Reading state</comment>
+  </data>
+  <data name="Found" xml:space="preserve">
+    <value>Пронађено</value>
+    <comment>Found {0} books.</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Језик</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Search by title" xml:space="preserve">
+    <value>Претрага по наслову</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Fetching book info" xml:space="preserve">
+    <value>Преузимам податке о књизи</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Contact &amp; Support" xml:space="preserve">
+    <value>Контакт и подршка</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="See issues or create one yourself" xml:space="preserve">
+    <value>Пријави проблем / креирај тикет</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Help articles" xml:space="preserve">
+    <value>Објашњења и упуте</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="General info" xml:space="preserve">
+    <value>Опште информације</value>
+    <comment>Front page</comment>
+  </data>
+  <data name="Number of books" xml:space="preserve">
+    <value>Укупно књига</value>
+  </data>
+  <data name="Info available" xml:space="preserve">
+    <value>Информације доступне</value>
+  </data>
+  <data name="Updated recently" xml:space="preserve">
+    <value>Недавно ажуриране</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Top Authors" xml:space="preserve">
+    <value>Топ аутори</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Изабери</value>
+    <comment>Set, chose, take this</comment>
+  </data>
+  <data name="or select existing" xml:space="preserve">
+    <value>или изабери постојећу</value>
+    <comment>or select existing image</comment>
+  </data>
+  <data name="Select image" xml:space="preserve">
+    <value>Изабери слику</value>
+  </data>
+  <data name="Import some books" xml:space="preserve">
+    <value>Увези неке књиге</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="It&apos;s so empty here..." xml:space="preserve">
+    <value>Тако је празно овде...</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Опис</value>
+    <comment>Details page, book description tab.</comment>
+  </data>
+  <data name="From e-book" xml:space="preserve">
+    <value>Из е-боок фајла</value>
+    <comment>Book details, generic description from e-book. Tab.</comment>
+  </data>
+  <data name="Mark as..." xml:space="preserve">
+    <value>Обележи као...</value>
+    <comment>Reading state</comment>
+  </data>
+  <data name="Found" xml:space="preserve">
+    <value>Пронађено</value>
+    <comment>Found {0} books.</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Језик</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Search by title" xml:space="preserve">
+    <value>Претрага по наслову</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Fetching book info" xml:space="preserve">
+    <value>Сакупљам информације о књизи</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Contact &amp; Support" xml:space="preserve">
+    <value>Контакт и подршка</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="See issues or create one yourself" xml:space="preserve">
+    <value>Погледај отворене тикете или направи један</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Help articles" xml:space="preserve">
+    <value>Помоћ</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="General info" xml:space="preserve">
+    <value>Информације</value>
+    <comment>Front page</comment>
+  </data>
+  <data name="Updated recently" xml:space="preserve">
+    <value>Недавно ажурирано</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Top Authors" xml:space="preserve">
+    <value>Најзаступљенији аутори</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Изабери</value>
+    <comment>Set, chose, take this</comment>
+  </data>
+  <data name="or select existing" xml:space="preserve">
+    <value>или изабери постојећу</value>
+    <comment>or select existing image</comment>
+  </data>
+  <data name="Import some books" xml:space="preserve">
+    <value>Увези неколико књига</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="It&apos;s so empty here..." xml:space="preserve">
+    <value>Тако је празно овдје...</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сачувај</value>
+  </data>
+  <data name="Book title cannot be empty" xml:space="preserve">
+    <value>Назив књиге не може бити празан</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Сачувано</value>
+  </data>
+  <data name="Yes, delete!" xml:space="preserve">
+    <value>Да, обриши!</value>
+  </data>
+  <data name="Add new" xml:space="preserve">
+    <value>Додај нову</value>
+  </data>
+  <data name="Edit shelf name" xml:space="preserve">
+    <value>Измени назив полице</value>
+  </data>
+  <data name="Exit reader" xml:space="preserve">
+    <value>Заврши читање</value>
+  </data>
+  <data name="Font family" xml:space="preserve">
+    <value>Назив фонта</value>
+  </data>
+  <data name="Font size" xml:space="preserve">
+    <value>Величина фонта</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Отвори</value>
+  </data>
+  <data name="Select book" xml:space="preserve">
+    <value>Изабери књигу</value>
+  </data>
+  <data name="Theme settings" xml:space="preserve">
+    <value>Подешавање изгледа</value>
+  </data>
+  <data name="Themes" xml:space="preserve">
+    <value>Постојеће теме</value>
+  </data>
+  <data name="successfuly exported" xml:space="preserve">
+    <value>успешно извезена</value>
+  </data>
+  <data name="None. Choose every time." xml:space="preserve">
+    <value>Није постављено. Изабери током извоза.</value>
+    <comment>Export location</comment>
+  </data>
+  <data name="Default export location" xml:space="preserve">
+    <value>Подразумевана локација за извоз</value>
+  </data>
+  <data name="Export file" xml:space="preserve">
+    <value>Извези фајл</value>
+  </data>
+  <data name="Imported" xml:space="preserve">
+    <value>Увезено</value>
+  </data>
+  <data name="Select individual books" xml:space="preserve">
+    <value>Изабери књиге појединачно</value>
+  </data>
+  <data name="Select to scan the folder or select individually" xml:space="preserve">
+    <value>Претражи фолдер или изабери појединачне књиге</value>
+  </data>
+  <data name="Tiles" xml:space="preserve">
+    <value>Картице</value>
+    <comment>display option</comment>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Листа</value>
+    <comment>display option</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Датум</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Наслов</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Аутор</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Означи</value>
+  </data>
+  <data name="Bookmark" xml:space="preserve">
+    <value>Обележи</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копирај</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Измени</value>
+  </data>
+  <data name="Add note" xml:space="preserve">
+    <value>Додај забелешку</value>
+  </data>
+  <data name="Copy all data" xml:space="preserve">
+    <value>Копирај постојеће податке</value>
+  </data>
+  <data name="Operation in progress, please wait..." xml:space="preserve">
+    <value>Операција у току, молим сачекајте...</value>
+  </data>
+  <data name="Bookmarks and notes" xml:space="preserve">
+    <value>Обележја и напомене</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Ручно</value>
+    <comment>Manual sorting</comment>
+  </data>
+  <data name="The destination folder is not empty. Proceeding will overwrite the existing files." xml:space="preserve">
+    <value>Одредишна фасцикла није празна. Наставак ће преписати постојеће фајлове.</value>
+    <comment>Change repository path</comment>
+  </data>
+  <data name="Do you wish to continue?" xml:space="preserve">
+    <value>Да ли желите да наставите?</value>
+    <comment>Change repository path.</comment>
+  </data>
+  <data name="Thank you for using Bookerei." xml:space="preserve">
+    <value>Хвала што користите Bookerei.</value>
+  </data>
+  <data name="We are proud to offer this app completely free of charge, and it will always remain free. We would greatly appreciate it if you could help us spread the word." xml:space="preserve">
+    <value>Поносни смо што нудимо ову апликацију потпуно бесплатно и она ће увек остати бесплатна. Били бисмо веома захвални ако бисте нам могли помоћи да проширимо вест.</value>
+  </data>
+  <data name="If you enjoy using our app, please take a moment to share your experience. Your support helps us reach more users." xml:space="preserve">
+    <value>Ако уживате у коришћењу наше апликације, молимо вас да издвојите тренутак и поделите своје искуство. Ваша подршка нам помаже да досегнемо више корисника.</value>
+  </data>
+  <data name="If you have any feedback or suggestions for improvement, we would love to hear from you. Please don&apos;t hesitate to contact us with your thoughts." xml:space="preserve">
+    <value>Ако имате било какве повратне информације или предлоге за побољшање, волели бисмо да их чујемо. Молимо вас да нас контактирате са вашим мишљењем.</value>
+  </data>
+  <data name="Thank you for your support!" xml:space="preserve">
+    <value>Хвала на вашој подршци!</value>
+  </data>
+  <data name="Rate Bookerei!" xml:space="preserve">
+    <value>Оцените Bookerei!</value>
+  </data>
+  <data name="Can you help us?" xml:space="preserve">
+    <value>Можете ли нам помоћи?</value>
+  </data>
+  <data name="Select Multiple" xml:space="preserve">
+    <value>Изабери више</value>
+    <comment>Select multiple books</comment>
+  </data>
+  <data name="A new version is available" xml:space="preserve">
+    <value>Нова верзија је доступна</value>
+    <comment>New software version available
+Fuzzy</comment>
+  </data>
+  <data name="Get new version" xml:space="preserve">
+    <value>Преузми нову верзију</value>
+    <comment>Get new software version button.
+Fuzzy</comment>
+  </data>
+  <data name="Automatically search online for book information." xml:space="preserve">
+    <value>Аутоматски потражи информације о књизи на интернету</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Изглед</value>
+    <comment>select theme</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Ресет</value>
+    <comment>Reset repository path</comment>
+  </data>
+</root>

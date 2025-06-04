@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add to the clipboard" xml:space="preserve">
+    <value>Zur Ablage hinzufügen</value>
+  </data>
+  <data name="Added recently" xml:space="preserve">
+    <value>Kürzlich hinzugefügt</value>
+  </data>
+  <data name="Application version" xml:space="preserve">
+    <value>Anwendungsversion</value>
+  </data>
+  <data name="Apply changes" xml:space="preserve">
+    <value>Änderungen hinzufügen</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="Book already exists!" xml:space="preserve">
+    <value>Das Buch existiert schon!</value>
+  </data>
+  <data name="Books" xml:space="preserve">
+    <value>Bücher</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Stornieren</value>
+    <comment>Button</comment>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="Change image" xml:space="preserve">
+    <value>Bild ändern</value>
+  </data>
+  <data name="Choose the shelf to put on" xml:space="preserve">
+    <value>Wähle das beliebte Regal</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Leeren</value>
+  </data>
+  <data name="Click on confirm button" xml:space="preserve">
+    <value>Klicke auf bestätigen</value>
+  </data>
+  <data name="Click to select the shelf" xml:space="preserve">
+    <value>Klicke um das Regal auszuwählen</value>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Ablage</value>
+  </data>
+  <data name="Confirm the import" xml:space="preserve">
+    <value>Bestätige den Import</value>
+  </data>
+  <data name="Create shelf" xml:space="preserve">
+    <value>Regal erstellen</value>
+  </data>
+  <data name="Delete book" xml:space="preserve">
+    <value>Buch löschen</value>
+  </data>
+  <data name="Delete shelf" xml:space="preserve">
+    <value>Regal löschen</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="Discard changes" xml:space="preserve">
+    <value>Änderungen stornieren</value>
+  </data>
+  <data name="Do not remind me for this book" xml:space="preserve">
+    <value>Erinnere mich an dieses Buch nicht</value>
+  </data>
+  <data name="Do you want to delete" xml:space="preserve">
+    <value>Möchtest du löschen</value>
+  </data>
+  <data name="Done!" xml:space="preserve">
+    <value>Fertig!</value>
+  </data>
+  <data name="Edit description" xml:space="preserve">
+    <value>Beschreibung ändern</value>
+  </data>
+  <data name="Edit name" xml:space="preserve">
+    <value>Name ändern</value>
+  </data>
+  <data name="Edit tags" xml:space="preserve">
+    <value>Tags bearbeiten</value>
+  </data>
+  <data name="Edit title" xml:space="preserve">
+    <value>Titel bearbeiten</value>
+  </data>
+  <data name="Enter the shelf name" xml:space="preserve">
+    <value>Regalbezeichnung hinzufügen</value>
+  </data>
+  <data name="Fetch info" xml:space="preserve">
+    <value>Infos herunterladen</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="Processed" xml:space="preserve">
+    <value>Hinzugefügt</value>
+  </data>
+  <data name="Name conflict" xml:space="preserve">
+    <value>Name-Fehler</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nächste</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nein</value>
+    <comment>Button</comment>
+  </data>
+  <data name="No shelf selected" xml:space="preserve">
+    <value>Kein Regal entdeckt</value>
+  </data>
+  <data name="Nothing here. Add at least one book and do some actions." xml:space="preserve">
+    <value>Hier ist nichts. Füge mindestens ein Buch hinzu.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Button</comment>
+  </data>
+  <data name="Open book location" xml:space="preserve">
+    <value>Standort vom Buch ansehen</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Vorherige</value>
+  </data>
+  <data name="Read" xml:space="preserve">
+    <value>Gelesen</value>
+  </data>
+  <data name="Reading" xml:space="preserve">
+    <value>Am Lesen</value>
+  </data>
+  <data name="Remove from the shelf" xml:space="preserve">
+    <value>Vom Regal entfernen</value>
+  </data>
+  <data name="Respository path" xml:space="preserve">
+    <value>Speicheroption</value>
+  </data>
+  <data name="Scan folder and subfolders" xml:space="preserve">
+    <value>Ordner scannen</value>
+  </data>
+  <data name="See books" xml:space="preserve">
+    <value>Bücher ansehen</value>
+  </data>
+  <data name="Select &amp; obtain info" xml:space="preserve">
+    <value>Infos auswählen &amp; erhalten</value>
+  </data>
+  <data name="Select book(s)" xml:space="preserve">
+    <value>Bücher auswählen</value>
+  </data>
+  <data name="Send by email" xml:space="preserve">
+    <value>Durch email teilen</value>
+  </data>
+  <data name="Separate by , or ;" xml:space="preserve">
+    <value>Trennen mit , oder ;</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="Shelves" xml:space="preserve">
+    <value>Regale</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Anzeigen</value>
+    <comment>Show n books</comment>
+  </data>
+  <data name="Show 100" xml:space="preserve">
+    <value>100 Anzeigen</value>
+  </data>
+  <data name="Show 15" xml:space="preserve">
+    <value>15 Anzeigen</value>
+  </data>
+  <data name="Show 30" xml:space="preserve">
+    <value>30 Anzeigen</value>
+  </data>
+  <data name="Show 50" xml:space="preserve">
+    <value>50 Anzeigen</value>
+  </data>
+  <data name="Show all" xml:space="preserve">
+    <value>Alle anzeigen</value>
+  </data>
+  <data name="Show all for" xml:space="preserve">
+    <value>Für alle anzeigen</value>
+  </data>
+  <data name="There is already one shelf with the name" xml:space="preserve">
+    <value>Ein Regal mit diesen Namen existiert schon </value>
+  </data>
+  <data name="Type to search..." xml:space="preserve">
+    <value>Zum Suchen tippen</value>
+  </data>
+  <data name="View in Folder" xml:space="preserve">
+    <value>Im Ordner ansehen </value>
+  </data>
+  <data name="WantToRead" xml:space="preserve">
+    <value>Wunschliste</value>
+  </data>
+  <data name="Which one is your book?" xml:space="preserve">
+    <value>Wählen Sie ihr Buch.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+    <comment>Button</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Details page, book description tab.</comment>
+  </data>
+  <data name="From e-book" xml:space="preserve">
+    <value>Von e-book</value>
+    <comment>Book details, generic description from e-book. Tab.</comment>
+  </data>
+  <data name="Mark as..." xml:space="preserve">
+    <value>Markieren als...</value>
+    <comment>Reading state</comment>
+  </data>
+  <data name="Found" xml:space="preserve">
+    <value>Gefunden</value>
+    <comment>Found {0} books.</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Search by title" xml:space="preserve">
+    <value>Nach dem Titel suchen</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Fetching book info" xml:space="preserve">
+    <value>Infos zum Buch werden heruntergeladen</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Contact &amp; Support" xml:space="preserve">
+    <value>Contact &amp; Support</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="See issues or create one yourself" xml:space="preserve">
+    <value>Problem Melden</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Help articles" xml:space="preserve">
+    <value>Hilfsmitteln</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="General info" xml:space="preserve">
+    <value>Allgemeine Informationen</value>
+    <comment>Front page</comment>
+  </data>
+  <data name="Number of books" xml:space="preserve">
+    <value>Anzahl von Büchern</value>
+  </data>
+  <data name="Info available" xml:space="preserve">
+    <value>Info verfügbar</value>
+  </data>
+  <data name="Updated recently" xml:space="preserve">
+    <value>Kürzlich aktualisiert</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Top Authors" xml:space="preserve">
+    <value>Top Autoren</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Wählen</value>
+    <comment>Set, chose, take this</comment>
+  </data>
+  <data name="or select existing" xml:space="preserve">
+    <value>oder Verfügbare wählen</value>
+    <comment>or select existing image</comment>
+  </data>
+  <data name="Select image" xml:space="preserve">
+    <value>Bild wählen</value>
+  </data>
+  <data name="Import some books" xml:space="preserve">
+    <value>Bücher hinzufügen</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="It&apos;s so empty here..." xml:space="preserve">
+    <value>Es ist so leer hier...</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>Details page, book description tab.</comment>
+  </data>
+  <data name="From e-book" xml:space="preserve">
+    <value>Vom e-book</value>
+    <comment>Book details, generic description from e-book. Tab.</comment>
+  </data>
+  <data name="Mark as..." xml:space="preserve">
+    <value>Bezeichnen als...</value>
+    <comment>Reading state</comment>
+  </data>
+  <data name="Found" xml:space="preserve">
+    <value>Gefunden</value>
+    <comment>Found {0} books.</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Search by title" xml:space="preserve">
+    <value>Nach dem Titel suchen</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Fetching book info" xml:space="preserve">
+    <value>Infos zum Buch übernehmen</value>
+    <comment>Info collector</comment>
+  </data>
+  <data name="Contact &amp; Support" xml:space="preserve">
+    <value>Contact &amp; Support</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="See issues or create one yourself" xml:space="preserve">
+    <value>Probleme melden</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="Help articles" xml:space="preserve">
+    <value>Hilfsmitteln</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="General info" xml:space="preserve">
+    <value>Allgemeine Informationen</value>
+    <comment>Front page</comment>
+  </data>
+  <data name="Updated recently" xml:space="preserve">
+    <value>Kürzlich aktualisiert</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Top Authors" xml:space="preserve">
+    <value>Top Autoren</value>
+    <comment>Front page card</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Wählen</value>
+    <comment>Set, chose, take this</comment>
+  </data>
+  <data name="or select existing" xml:space="preserve">
+    <value>oder Verfügbare wählen</value>
+    <comment>or select existing image</comment>
+  </data>
+  <data name="Import some books" xml:space="preserve">
+    <value>Fügen Sie paar Bücher hinzu</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="It&apos;s so empty here..." xml:space="preserve">
+    <value>Es ist so leer hier...</value>
+    <comment>Front page widget when no books imported</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Book title cannot be empty" xml:space="preserve">
+    <value>Buchtitel kann nicht leer sein</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Gespeichert</value>
+  </data>
+  <data name="Yes, delete!" xml:space="preserve">
+    <value>Ja, lösche!</value>
+  </data>
+  <data name="Add new" xml:space="preserve">
+    <value>Neue hinzufügen</value>
+  </data>
+  <data name="Edit shelf name" xml:space="preserve">
+    <value>Regal-Name ändern</value>
+  </data>
+  <data name="Exit reader" xml:space="preserve">
+    <value>Leser verlassen</value>
+  </data>
+  <data name="Font family" xml:space="preserve">
+    <value>Schriftarten</value>
+  </data>
+  <data name="Font size" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="Select book" xml:space="preserve">
+    <value>Buch wählen</value>
+  </data>
+  <data name="Theme settings" xml:space="preserve">
+    <value>Themeneinstellung</value>
+  </data>
+  <data name="Themes" xml:space="preserve">
+    <value>Themen</value>
+  </data>
+  <data name="successfuly exported" xml:space="preserve">
+    <value>erfolgreich exportiert</value>
+  </data>
+  <data name="None. Choose every time." xml:space="preserve">
+    <value>Nichts. Auswahl speichern.</value>
+    <comment>Export location</comment>
+  </data>
+  <data name="Default export location" xml:space="preserve">
+    <value>Standard-Exportspeicherort</value>
+  </data>
+  <data name="Export file" xml:space="preserve">
+    <value>Datei exportieren</value>
+  </data>
+  <data name="Imported" xml:space="preserve">
+    <value>Importiert</value>
+  </data>
+  <data name="Select individual books" xml:space="preserve">
+    <value>individuell Bücher wählen</value>
+  </data>
+  <data name="Select to scan the folder or select individually" xml:space="preserve">
+    <value>Ordner scannen wählen oder individuell wählen</value>
+  </data>
+  <data name="Tiles" xml:space="preserve">
+    <value>Karten</value>
+    <comment>display option</comment>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
+    <comment>display option</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Markiere</value>
+  </data>
+  <data name="Bookmark" xml:space="preserve">
+    <value>Lesezeichen</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Add note" xml:space="preserve">
+    <value>Notiz hinzufügen</value>
+  </data>
+  <data name="Copy all data" xml:space="preserve">
+    <value>Bestehende Daten kopieren</value>
+  </data>
+  <data name="Operation in progress, please wait..." xml:space="preserve">
+    <value>Vorgang läuft, bitte warten...</value>
+  </data>
+  <data name="Bookmarks and notes" xml:space="preserve">
+    <value>Lesezeichen und Notizen</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manuelles</value>
+    <comment>Manual sorting</comment>
+  </data>
+  <data name="The destination folder is not empty. Proceeding will overwrite the existing files." xml:space="preserve">
+    <value>Der Zielordner ist nicht leer. Wenn Sie fortfahren, werden die vorhandenen Dateien überschrieben.</value>
+    <comment>Change repository path</comment>
+  </data>
+  <data name="Do you wish to continue?" xml:space="preserve">
+    <value>Möchten Sie fortfahren?</value>
+    <comment>Change repository path.</comment>
+  </data>
+  <data name="Thank you for using Bookerei." xml:space="preserve">
+    <value>Vielen Dank, dass Sie Bookerei verwenden.</value>
+  </data>
+  <data name="We are proud to offer this app completely free of charge, and it will always remain free. We would greatly appreciate it if you could help us spread the word." xml:space="preserve">
+    <value>Wir sind stolz darauf, diese App völlig kostenlos anzubieten, und sie wird immer kostenlos bleiben. Wir würden es sehr schätzen, wenn Sie uns helfen könnten, das Wort zu verbreiten.</value>
+  </data>
+  <data name="If you enjoy using our app, please take a moment to share your experience. Your support helps us reach more users." xml:space="preserve">
+    <value>Wenn Sie unsere App gerne nutzen, nehmen Sie sich bitte einen Moment Zeit, um Ihre Erfahrungen zu teilen. Ihre Unterstützung hilft uns, mehr Nutzer zu erreichen.</value>
+  </data>
+  <data name="If you have any feedback or suggestions for improvement, we would love to hear from you. Please don&apos;t hesitate to contact us with your thoughts." xml:space="preserve">
+    <value>Wenn Sie Feedback oder Verbesserungsvorschläge haben, würden wir uns sehr darüber freuen. Bitte zögern Sie nicht, uns Ihre Gedanken mitzuteilen.</value>
+  </data>
+  <data name="Thank you for your support!" xml:space="preserve">
+    <value>Danke für Ihre Unterstützung!</value>
+  </data>
+  <data name="Rate Bookerei!" xml:space="preserve">
+    <value>Bewerten Sie Bookerei!</value>
+  </data>
+  <data name="Can you help us?" xml:space="preserve">
+    <value>Können Sie uns helfen?</value>
+  </data>
+  <data name="Select Multiple" xml:space="preserve">
+    <value>Mehrfach auswählen</value>
+    <comment>Select multiple books</comment>
+  </data>
+  <data name="A new version is available" xml:space="preserve">
+    <value>Eine neue Version ist verfügbar.</value>
+    <comment>New software version available
+Fuzzy</comment>
+  </data>
+  <data name="Get new version" xml:space="preserve">
+    <value>Neue Version herunterladen.</value>
+    <comment>Get new software version button.
+Fuzzy</comment>
+  </data>
+  <data name="Automatically search online for book information." xml:space="preserve">
+    <value>Automatisch online nach Buchinformationen suchen.</value>
+    <comment>Fuzzy</comment>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Themen</value>
+    <comment>select theme</comment>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+    <comment>Reset repository path</comment>
+  </data>
+</root>

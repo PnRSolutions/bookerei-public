@@ -1,0 +1,101 @@
+/*
+Author: Bookerei
+Url: https://pickandroll.dev/bookerei
+*/
+
+body[data-theme="Light"] {
+    /* GENERAL */
+    --app-bg-primary: white; /*App background*/
+    --app-bg-secondary: white; /* Dialog, Offcanvas background*/
+    --app-bg-tertiary: #c5c4c3 /* Hover background, text group icon background */;
+
+    --app-text-color-primary: #333; /*Readable on bg-primary*/
+    --app-text-color-primary-muted: #666; /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #444; /*Readable on bg-secondary*/
+    --app-text-color-tertiary: #1a1919; /*Readable on bg-tertiary*/
+
+    --app-highlight-color: firebrick;/* Highlight color, used for buttons and links*/
+    --app-highlight-color-secondary: rgb(165, 164, 164); /* Highlight color, used for selected item*/
+    --app-highlight-color-contrast: white;
+
+    --app-link-color: #333; /* Link color*/
+    --app-link-hover-color: var(--app-highlight-color); /* Link hover color*/
+        /* BUTTONS */
+        /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: transparent;
+    --app-button-primary-background-hover: #333;
+    --app-button-primary-text-color: #666;
+    --app-button-primary-text-hover: #FFF;
+
+    /* Primary button should be visible on the secondary background. */
+    --app-button-secondary-background: none;
+    --app-button-secondary-background-hover: #333;
+    --app-button-secondary-text-color: #141e30;
+    --app-button-secondary-text-hover: #FFF;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: none;
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: none;
+    --app-sidebar-shadow: none;
+    --app-sidebar-menu-item-color: var(--app-text-color-primary-muted);
+    --app-sidebar-menu-item-hover-background: rgba(255, 255, 255, 0.1);
+    --app-sidebar-menu-item-hover-color: var(--app-text-color-primary);
+    --app-sidebar-menu-item-active-color: var(--app-text-color-primary);
+    --app-sidebar-menu-item-active-border-color: var(--app-highlight-color);
+    --app-sidebar-menu-item-active-background: rgba(255, 255, 255, 0.25);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: none;
+    --app-topbar-shadow: none;
+    --app-topbar-border: none;
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgb(255,255,255,0.2);
+    --app-search-input-text-color: var(--app-text-color-primary);
+    --app-search-input-placeholder-color: var(--app-text-color-primary-muted);
+    --app-search-input-border: 0;
+    --app-search-input-focus-border: 0;
+    --app-search-input-focus-boxshadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+    --app-search-results-border-bottom: 3px solid #271D1A;
+    --app-search-results-item-background-color: rgba(0, 0, 0, 0.7);
+    --app-search-results-item-text-color: white;
+    --app-search-results-item-hover-text-color: white;
+    --app-search-results-item-active-text-color: white;
+    --app-search-results-item-hover-background-color: rgba(0, 0, 0, 0.5);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: #e0dfdd;
+    --app-frontcard-title-text-color: #555;
+    --app-frontcard-text-color: var(--app-text-color-primary);
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: var(--app-text-color-secondary);
+    --app-tab-active-text-color: var(--app-highlight-color);
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(0, 0, 0, 0.3);
+    --app-toolbar-button-text-color: white;
+    --app-toolbar-button-hover-bg: rgba(0, 0, 0, 0.7);
+    --app-toolbar-button-disabled-text-color: #CCC;
+    --app-toolbar-button-active-bg: #333;
+    --app-toolbar-button-active-text-color: white;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(0, 0, 0, 0.01);
+    --app-bookresult-list-odditem-hover-background: rgba(255, 255, 255, 0.05);
+    --app-bookresult-list-title-text-color: var(--app-link-color);
+    --app-bookresult-list-author-text-color: var(--app-text-color-primary-muted);
+    --app-bookresult-list-date-text-color: var(--app-text-color-primary-muted);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: white;
+    --app-bookdetails-title-text-color: var(--app-text-color-secondary);
+    --app-bookdetails-shadow: none;
+    --app-bookdetails-border-radius: none;
+    --app-bookdetails-label-background-color: var(--app-bg-tertiary);
+    --app-bookdetails-label-text-color: var(--app-text-color-tertiary);
+}
