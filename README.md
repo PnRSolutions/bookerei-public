@@ -1,23 +1,45 @@
-# Bookerei - eBook reader and management software
+# ![Bookerei](logo.png) Bookerei
 
-## 📚 [Language Resource Manual](languages/ReadMe.md)
+## *Your Essential eBook Reader and Library Management Software*
 
-> **Learn how to add or translate languages for Bookerei.**
+## 🚀 Quick Links
+
+| [![Official Website][website-icon]][website-url] | [![Documentation Wiki][wiki-icon]][wiki-url] | [![Pick & Roll Solutions][pnr-icon]][pnr-url] |
+|:---:|:---:|:---:|
+| [**Official Website**][website-url] | [**Documentation Wiki**][wiki-url] | [**Pick & Roll Solutions**][pnr-url] |
+| Visit the Bookerei homepage | Browse help articles | Check out our company |
+
+[website-icon]: https://img.shields.io/badge/Website-Bookerei-blue?style=for-the-badge
+[website-url]: https://pickandroll.dev/bookerei
+[wiki-icon]: https://img.shields.io/badge/Documentation-Wiki-green?style=for-the-badge
+[wiki-url]: https://github.com/PnRSolutions/bookerei-public/wiki
+[pnr-icon]: https://img.shields.io/badge/Pick%20&%20Roll-Solutions-orange?style=for-the-badge
+[pnr-url]: https://pickandroll.dev
+
+## 🛠️ Customization Resources
+
+### 📚 [Language Resources](languages/ReadMe.md)
+
+> **Add translations to Bookerei**
+>
+> Learn how to create and contribute new language translations to make Bookerei accessible to more users worldwide.
+
+### 🎨 [Theming Guide](themes/ReadMe.md)
+
+> **Customize app appearance (from v1.9)**
+>
+> Discover how to create beautiful custom themes and modify the app's look and feel to match your preferences.
 
 ---
 
-## 🎨 [Theming Guide](themes/ReadMe.md)
+## 📜 Legal
 
-> **Find out how to customize the app's appearance (from v1.9).**
+### [Privacy Policy](privacy.txt)
 
----
-
-Read help articles [Bookerei Wiki](https://github.com/PnRSolutions/bookerei-public/wiki)
-
-[Visit Bookerei website](https://pickandroll.dev/Bookerei)
-
-[Visit Pick & Roll Solutions website](https://pickandroll.dev)
-
-[Privacy policy](privacy.txt)
+Our commitment to protecting your data and privacy.
 
 ---
+
+*© 2025 Pick & Roll Solutions. All rights reserved.*
+
+*Making reading beautiful, one page at a time.*
