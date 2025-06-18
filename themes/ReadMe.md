@@ -1,8 +1,8 @@
 # Theming Support for Bookerei
 
-> **Note:** Theming will be available starting from app version **v1.9** (not yet released).
+> **Good news!** Custom theming is now available in app version **v1.9**!
 
-Once v1.9 is released, you will be able to customize your theme in the app settings.
+You can customize your theme in the app settings. Follow this guide to create and apply your own themes.
 
 ## Table of Contents
 
