@@ -10,7 +10,7 @@
 | Visit the Bookerei homepage | Browse help articles | Check out our company |
 
 [website-icon]: https://img.shields.io/badge/Website-Bookerei-blue?style=for-the-badge
-[website-url]: https://pickandroll.dev/bookerei
+[website-url]: https://bookerei.com
 [wiki-icon]: https://img.shields.io/badge/Documentation-Wiki-green?style=for-the-badge
 [wiki-url]: https://github.com/PnRSolutions/bookerei-public/wiki
 [pnr-icon]: https://img.shields.io/badge/Pick%20&%20Roll-Solutions-orange?style=for-the-badge

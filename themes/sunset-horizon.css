@@ -1,0 +1,120 @@
+/* 
+Author: Bookerei
+Url: https://bookerei.com
+ */
+
+body[data-theme="Sunset Horizon"] {
+    
+    --app-bg-primary: #1d0a22 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPgogIDxkZWZzPgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJzdW5zZXQiIGN4PSI1MCUiIGN5PSIxMDAlIiByPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmOTI0MiIgc3RvcC1vcGFjaXR5PSIwLjE1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjZjU1NjU5IiBzdG9wLW9wYWNpdHk9IjAuMSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2QwNTVhMCIgc3RvcC1vcGFjaXR5PSIwLjA3Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjNmQ1OGMyIiBzdG9wLW9wYWNpdHk9IjAuMDUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiMxZDBhMjIiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaG9yaXpvbiIgeDE9IjAlIiB5MT0iODUlIiB4Mj0iMTAwJSIgeTI9Ijg1JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZjZiNDIiIHN0b3Atb3BhY2l0eT0iMC4xIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmY0MjdmIiBzdG9wLW9wYWNpdHk9IjAuMTIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmY2YjQyIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgZmlsbD0idXJsKCNzdW5zZXQpIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+CiAgPHBhdGggZmlsbD0idXJsKCNob3Jpem9uKSIgZD0iTTAgOTUwIEMgMjAwIDg2MCw4MDAgODYwLDEwMDAgOTUwIEwgMTAwMCAxMDAwIEwgMCAxMDAwIFoiLz4KPC9zdmc+") repeat bottom left fixed;
+    --app-bg-secondary: rgba(29, 10, 34, 0.95);
+    --app-bg-tertiary: #3a1241;
+
+    --app-text-color-primary: #ffeef7;
+    --app-text-color-primary-muted: rgba(255, 238, 247, 0.7);
+    --app-text-color-secondary: #ff9a7c;
+    --app-text-color-tertiary: #d56bd0;
+
+    --app-highlight-color: #ff6b42;
+    --app-highlight-color-secondary: rgba(255, 107, 66, 0.25);
+    --app-highlight-color-contrast: #1d0a22;
+
+    --app-link-color: #ff427f;
+    --app-link-hover-color: #ff9a7c;
+
+    
+    --app-button-primary-background: linear-gradient(135deg, #ff6b42 0%, #ff427f 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #ff427f 0%, #ff6b42 100%);
+    --app-button-primary-text-color: #ffffff;
+    --app-button-primary-text-hover: #ffffff;
+    --app-button-primary-border: none;
+    --app-button-primary-border-hover: none;
+
+    --app-button-secondary-background:none;
+    --app-button-secondary-background-hover: rgba(255, 66, 127, 0.2);
+    --app-button-secondary-text-color: #ff6b42;
+    --app-button-secondary-text-hover: #ffeef7;
+    --app-button-secondary-border: none;
+    --app-button-secondary-border-hover: none;
+
+    
+    --app-sidebar-background: linear-gradient(180deg, rgba(29, 10, 34, 0.9) 0%, rgba(58, 18, 65, 0.9) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: none;
+    --app-sidebar-shadow: 0 0 20px rgba(255, 66, 127, 0.1);
+
+    --app-sidebar-menu-item-color: #ff427f;
+    --app-sidebar-menu-item-hover-background: rgba(255, 107, 66, 0.1);
+    --app-sidebar-menu-item-hover-color: #ff9a7c;
+    --app-sidebar-menu-item-active-color: #ff6b42;
+    --app-sidebar-menu-item-active-border-color: #ff6b42;
+    --app-sidebar-menu-item-active-background: rgba(255, 107, 66, 0.15);
+
+    
+    --app-topbar-background: linear-gradient(90deg, rgba(29, 10, 34, 0.85) 0%, rgba(58, 18, 65, 0.85) 100%);
+    --app-topbar-shadow: 0 5px 15px rgba(255, 66, 127, 0.1);
+    --app-topbar-border: none;
+    --app-topbar-margin-start: 5rem;
+
+    
+    --app-search-input-background-color: rgba(58, 18, 65, 0.6);
+    --app-search-input-text-color: #ffeef7;
+    --app-search-input-placeholder-color: rgba(255, 238, 247, 0.5);
+    --app-search-input-border: 2px solid rgba(255, 107, 66, 0.3);
+    --app-search-input-focus-border: 2px solid rgba(255, 107, 66, 0.8);
+    --app-search-input-focus-boxshadow: 0 0 10px rgba(255, 66, 127, 0.3);
+    --app-search-results-border-bottom: 1px solid rgba(255, 107, 66, 0.3);
+    --app-search-results-item-background-color: rgba(58, 18, 65, 0.9);
+    --app-search-results-item-text-color: #ffeef7;
+    --app-search-results-item-hover-text-color: #ff6b42;
+    --app-search-results-item-active-text-color: #ff6b42;
+    --app-search-results-item-active-bg: rgba(255, 107, 66, 0.1);
+    --app-search-results-item-hover-background-color: rgba(29, 10, 34, 0.9);
+
+    
+    --app-frontcard-title-background: rgba(255, 66, 127, 0.15);
+    --app-frontcard-title-text-color: #ff427f;
+    --app-frontcard-text-color: #ffeef7;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff6b42'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff6b42'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    
+    --app-tab-text-color: #d56bd0;
+    --app-tab-active-text-color: #ff6b42;
+
+    
+    --app-toolbar-button-bg: rgba(255, 66, 127, 0.1);
+    --app-toolbar-button-text-color: #ffeef7;
+    --app-toolbar-button-hover-bg: rgba(255, 107, 66, 0.15);
+    --app-toolbar-button-disabled-text-color: rgba(255, 238, 247, 0.3);
+    --app-toolbar-button-active-bg: #ff6b42;
+    --app-toolbar-button-active-text-color: #ffffff;
+
+    
+    --app-bookresult-list-odditem-background: rgba(58, 18, 65, 0.5);
+    --app-bookresult-list-odditem-hover-background: rgba(58, 18, 65, 0.8);
+    --app-bookresult-list-title-text-color: #ff6b42;
+    --app-bookresult-list-author-text-color: #ffeef7;
+    --app-bookresult-list-date-text-color: #ff427f;
+
+    
+    --app-bookdetails-background: rgba(58, 18, 65, 0.15);
+    --app-bookdetails-title-text-color: #ff6b42;
+    --app-bookdetails-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --app-bookdetails-border-radius: 0.5rem;
+    --app-bookdetails-label-background-color: rgba(29, 10, 34, 0.8);
+    --app-bookdetails-label-text-color: var(--app-text-color-tertiary);
+
+    .badge {
+        background-color: rgba(29, 10, 34, 0.8) !important;
+        color: var(--app-text-color-tertiary) !important;
+    }
+
+    .list-group-item-action:hover{
+        color: var(--app-text-color-tertiary) !important;
+    }
+}
+
+
+html[dir="rtl"] body[data-theme="Sunset Horizon"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(29, 10, 34, 0.85) 0%, rgba(58, 18, 65, 0.85) 100%);
+}

@@ -1,0 +1,101 @@
+/* 
+Author: Bookerei
+Url: https://bookerei.com
+ */
+
+body[data-theme="Glass"] {
+      --app-bg-primary: #000 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(123,787,644)'%3E%3Cstop offset='0' stop-color='%23051032'/%3E%3Cstop offset='1' stop-color='%23084277'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='570' height='475' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.01'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23888' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23AAA' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23777' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23333' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23BBB' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23AAA' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23333' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23AAA' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23444' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23888' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23AAA' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23777' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23777' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23BBB' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23AAA' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23888' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23333' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23111' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23AAA' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23333' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23888' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23444' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23777' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23777' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23333' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23BBB' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23111' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23BBB' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23BBB' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23444' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23111' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23BBB' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23333' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23111' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23888' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23444' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23BBB' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23777' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23444' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23888' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23333' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23333' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23777' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23444' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23111' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23BBB' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23111' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23AAA' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23333' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23BBB' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23888' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23BBB' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23111' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23111' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23BBB' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23444' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23AAA' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3CradialGradient id='c' cx='30%' cy='40%' r='80%' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2350a6ff' stop-opacity='0.12'/%3E%3Cstop offset='60%' stop-color='%2350a6ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23c)' width='100%25' height='100%25'/%3E%3C/svg%3E") repeat fixed;
+    --app-bg-secondary: rgba(5, 25, 50, 0.85);
+    --app-bg-tertiary: rgba(3, 15, 36, 0.9);
+
+    --app-text-color-primary: #ffffff;
+    --app-text-color-primary-muted: rgba(255, 255, 255, 0.85);
+    --app-text-color-secondary: #9cceff;
+    --app-text-color-tertiary: #50a6ff;    
+    --app-highlight-color: #50a6ff;
+    --app-highlight-color-secondary: rgba(80, 166, 255, 0.4);
+    --app-highlight-color-contrast: #ffffff;
+
+    --app-link-color: #70c0ff;
+    --app-link-hover-color: #a0d8ff;
+
+    
+    --app-button-primary-background: none;
+    --app-button-primary-background-hover: linear-gradient(135deg, #1263e5 0%, #0047ab 100%);
+    --app-button-primary-text-color: #ffffff;
+    --app-button-primary-text-hover: #ffffff;
+    --app-button-primary-border: none;
+    --app-button-primary-border-hover: none;
+
+    --app-button-secondary-background: none;
+    --app-button-secondary-background-hover: rgba(80, 166, 255, 0.35);
+    --app-button-secondary-text-color: #9cceff;
+    --app-button-secondary-text-hover: #ffffff;
+    --app-button-secondary-border: none;
+    --app-button-secondary-border-hover: none;      
+    
+    --app-sidebar-background: rgba(3, 13, 30, 0.9);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 1px solid rgba(80, 166, 255, 0.25);
+    --app-sidebar-shadow: 0 0 30px rgba(80, 166, 255, 0.3);
+
+    --app-sidebar-menu-item-color: #9cceff;
+    --app-sidebar-menu-item-hover-background: rgba(80, 166, 255, 0.25);
+    --app-sidebar-menu-item-hover-color: #ffffff;
+    --app-sidebar-menu-item-active-color: #ffffff;
+    --app-sidebar-menu-item-active-border-color: #50a6ff;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(80, 166, 255, 0.4) 0%, rgba(18, 99, 229, 0.4) 100%);
+
+      --app-topbar-background: linear-gradient(90deg, rgba(3, 13, 30, 0.9) 0%, rgba(5, 25, 50, 0.9) 100%);
+    --app-topbar-shadow: 0 5px 20px rgba(0, 0, 0, 0.4), 0 0 40px rgba(80, 166, 255, 0.2);
+    --app-topbar-border: 1px solid rgba(80, 166, 255, 0.35);
+    --app-topbar-margin-start: 5rem;
+
+      --app-search-input-background-color: rgba(3, 13, 30, 0.7);
+    --app-search-input-text-color: #ffffff;
+    --app-search-input-placeholder-color: rgba(156, 206, 255, 0.7);
+    --app-search-input-border: 1px solid rgba(80, 166, 255, 0.6);
+    --app-search-input-focus-border: 1px solid rgba(80, 166, 255, 1);
+    --app-search-input-focus-boxshadow: 0 0 20px rgba(80, 166, 255, 0.6);
+    --app-search-results-border-bottom: 1px solid rgba(80, 166, 255, 0.4);
+    --app-search-results-item-background-color: rgba(5, 25, 50, 0.97);
+    --app-search-results-item-text-color: #ffffff;
+    --app-search-results-item-hover-text-color: #80d0ff;
+    --app-search-results-item-active-text-color: #ffffff;
+    --app-search-results-item-active-bg: rgba(80, 166, 255, 0.45);
+    --app-search-results-item-hover-background-color: rgba(10, 50, 100, 0.97);
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(59, 142, 243, 0.35) 0%, rgba(18, 99, 229, 0.35) 100%);
+    --app-frontcard-title-text-color: #ffffff;
+    --app-frontcard-text-color: #bde0ff;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2370c0ff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2370c0ff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    
+    --app-tab-text-color: #9cceff;
+    --app-tab-active-text-color: #ffffff;
+
+    
+    --app-toolbar-button-bg: rgba(8, 53, 107, 0.6);
+    --app-toolbar-button-text-color: #ffffff;
+    --app-toolbar-button-hover-bg: rgba(80, 166, 255, 0.3);
+    --app-toolbar-button-disabled-text-color: rgba(156, 206, 255, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, #3b8ef3 0%, #1263e5 100%);
+    --app-toolbar-button-active-text-color: #ffffff;      --app-bookresult-list-odditem-background: rgba(5, 25, 50, 0.5);
+    --app-bookresult-list-odditem-hover-background: rgba(18, 99, 229, 0.4);
+    --app-bookresult-list-title-text-color: #80d0ff;
+    --app-bookresult-list-author-text-color: #ffffff;
+    --app-bookresult-list-date-text-color: #a0d0ff;
+
+    
+    --app-bookdetails-background: rgba(5, 25, 50, 0.6);
+    --app-bookdetails-title-text-color: #80d0ff;
+    --app-bookdetails-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4), 0 0 30px rgba(80, 166, 255, 0.25);
+    --app-bookdetails-border-radius: 0.5rem;    --app-bookdetails-label-background-color: rgba(3, 13, 30, 0.8);
+    --app-bookdetails-label-text-color: #a0d0ff;
+    
+}
+
+
+html[dir="rtl"] body[data-theme="Glass"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(3, 13, 30, 0.9) 0%, rgba(5, 25, 50, 0.9) 100%);
+}

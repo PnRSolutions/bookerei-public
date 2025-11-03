@@ -1,20 +1,30 @@
 Privacy Policy
+Last Updated: November 3, 2025
+
 Bookerei is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information about you when you use our software.
 
 Information We Collect
-We do not collect any personal data from you. However, we may collect errors, exceptions, and telemetry data in order to improve the app.
+We do not collect any personal data from you. All your books and personal data remain exclusively on your computer and are never transmitted to us or any third parties. However, we may collect anonymous telemetry data in order to improve the app's functionality and performance. This may include crash reports, usage statistics, device type, operating system version, and user's country.
+
+Content Responsibility and Disclaimer
+Bookerei is a book management and reading application that allows you to import and organize your personal book collection. Bookerei does not provide, host, or distribute any book content. All books imported into Bookerei are the sole responsibility of the user. Users must ensure they have the legal right to possess and use any content they import into the application. Bookerei and its developers are not responsible for any content imported by users.
+
+Bookerei does not modify the content of electronic books in any way and therefore cannot cause any damage to your book files. The application only reads and displays your book content without altering the original files.
+
+Data Privacy and Storage
+All books you import into Bookerei remain stored permanently and exclusively on your local device. Your book collection, reading progress, notes, and any other personal data never leave your device. Bookerei developers and third parties do not have access to your book files or reading data.
 
 How We Use Your Information
-We use the information we collect to improve the app and to provide support to our users.
+We use the anonymous telemetry information we collect solely to improve the app's performance, fix bugs, and provide better support to our users. This data does not include any personal information or content from your book collection.
 
 Sharing of Your Information
-We do not share your information with any third parties.
+We do not share your information with any third parties. Since your books and personal data remain on your computer, we have no access to them and therefore cannot share them.
 
-Security of Your Information
-We take reasonable measures to protect your information from unauthorized access, use, or disclosure.
+Children's Privacy
+Bookerei is suitable for all ages. We do not knowingly collect personal information from users of any age, as all data remains stored locally on the user's device.
 
 Changes to Our Privacy Policy
-We may update our Privacy Policy from time to time. If we make material changes to how we treat our users’ personal information, we will notify you by email to the email address specified in your account or through a notice on our website.
+We may update our Privacy Policy from time to time. Users are responsible for periodically checking this Privacy Policy for any changes. Continued use of Bookerei after any modifications indicates acceptance of those changes.
 
 Contact Us
 If you have any questions about our Privacy Policy, please contact us at bookerei.software@gmail.com.

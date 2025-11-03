@@ -1,0 +1,98 @@
+/* 
+Author: Bookerei
+Url: https://bookerei.com
+ */
+
+body[data-theme="MS Teams"] {
+    
+    --app-bg-primary: #ffffff; 
+    --app-bg-secondary: #ffffff; 
+    --app-bg-tertiary: #F9F8F7; 
+
+    --app-text-color-primary: #252423; 
+    --app-text-color-primary-muted: #605e5c; 
+    --app-text-color-secondary: #484644; 
+    --app-text-color-tertiary: #6264a7;     
+    --app-highlight-color: #6264a7; 
+    --app-highlight-color-secondary: rgba(98, 100, 167, 0.20);
+    --app-highlight-color-contrast: #ffffff;
+    --app-link-color: #6264a7; 
+    --app-link-hover-color: #444791;    
+    
+    
+    --app-button-primary-background: none; 
+    --app-button-primary-background-hover: #444791; 
+    --app-button-primary-text-color: var(--app-highlight-color);
+    --app-button-primary-text-hover: #ffffff;
+    --app-button-primary-border: none; 
+    --app-button-primary-border-hover: none;
+    --app-button-secondary-background: #ffffff;
+    --app-button-secondary-background-hover: #f3f2f1; 
+    --app-button-secondary-text-color: #6264a7; 
+    --app-button-secondary-text-hover: #444791; 
+    --app-button-secondary-border: none; 
+    --app-button-secondary-border-hover:none; 
+    
+    
+    --app-sidebar-background: #ebebeb; 
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: none;
+    --app-sidebar-shadow: none; 
+
+    --app-sidebar-menu-item-color: #616161;
+    --app-sidebar-menu-item-hover-background: rgba(255,255,255,0.1);
+    --app-sidebar-menu-item-hover-color: var(--app-highlight-color);
+    --app-sidebar-menu-item-active-color: var(--app-highlight-color);
+    --app-sidebar-menu-item-active-border-color: var(--app-highlight-color); 
+    --app-sidebar-menu-item-active-background: rgba(255, 255, 255, 0.877);    
+    
+    
+    --app-topbar-background: #ebebeb; 
+    --app-topbar-shadow: none; 
+    --app-topbar-border: 1px solid #e4e3e3; 
+    --app-topbar-margin-start: 5rem;    
+    
+    
+    --app-search-input-background-color: #ffffff;
+    --app-search-input-text-color: #252423; 
+    --app-search-input-placeholder-color: #8a8886; 
+    --app-search-input-border: 1px solid #c8c6c4; 
+    --app-search-input-focus-border: 1px solid #6264a7; 
+    --app-search-input-focus-boxshadow: 0 0 0 1px #6264a7;     --app-search-results-border-bottom: 1px solid #c8c6c4; 
+    --app-search-results-item-background-color: #ffffff;
+    --app-search-results-item-text-color: #252423; 
+    --app-search-results-item-hover-text-color: #6264a7; 
+    --app-search-results-item-active-text-color: #6264a7; 
+    --app-search-results-item-active-bg: #f9f8f7; 
+    --app-search-results-item-hover-background-color: #f3f2f1;     
+    --app-frontcard-title-background: rgba(98,100,167,0.08);
+    --app-frontcard-title-text-color: #6264a7; 
+    --app-frontcard-text-color: #252423; 
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236264a7'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236264a7'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");    
+    --app-tab-text-color: #605e5c; 
+    --app-tab-active-text-color: #6264a7;     
+    --app-toolbar-button-bg: transparent; 
+    --app-toolbar-button-text-color: #6264a7; 
+    --app-toolbar-button-hover-bg: rgba(98,100,167,0.08); 
+    --app-toolbar-button-disabled-text-color: #c8c6c4; 
+    --app-toolbar-button-active-bg: rgba(98,100,167,0.2); 
+    --app-toolbar-button-active-text-color: #444791;     
+    --app-bookresult-list-odditem-background: #f3f2f1; 
+    --app-bookresult-list-odditem-hover-background: #edebe9; 
+    --app-bookresult-list-title-text-color: #6264a7; 
+    --app-bookresult-list-author-text-color: #484644; 
+    --app-bookresult-list-date-text-color: #8a8886;     
+    
+    
+    --app-bookdetails-background: #FFF; 
+    --app-bookdetails-title-text-color: #6264a7; 
+    --app-bookdetails-shadow: none; 
+    --app-bookdetails-border-radius: 0rem; 
+    --app-bookdetails-label-background-color: #f3f2f1; 
+    --app-bookdetails-label-text-color: #6264a7; 
+}
+
+html[dir="rtl"] body[data-theme="MS Teams"] {
+    --app-topbar-background: #6264a7; 
+}
