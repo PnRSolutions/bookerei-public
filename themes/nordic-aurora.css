@@ -1,0 +1,117 @@
+/*
+Author: d3lboy
+Url: https://github.com/PnRSolutions/bookerei-public
+Description: Nordic Aurora - A theme inspired by the Northern Lights with cool blue-green-purple tones and animated aurora background
+*/
+
+body[data-theme="Nordic Aurora"] {
+    /* GENERAL */
+    --app-bg-primary: #0a1628; /*App background with Northern Lights*/
+    background: #0a1628 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230a1628;stop-opacity:1' /%3E%3Cstop offset='50%25' style='stop-color:%23142844;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230f1f35;stop-opacity:1' /%3E%3C/linearGradient%3E%3CradialGradient id='aurora1' cx='20%25' cy='30%25' r='50%25'%3E%3Cstop offset='0%25' style='stop-color:%2364ffda;stop-opacity:0.15' /%3E%3Cstop offset='30%25' style='stop-color:%234dd9c1;stop-opacity:0.08' /%3E%3Cstop offset='100%25' style='stop-color:%2364ffda;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='aurora2' cx='80%25' cy='40%25' r='60%25'%3E%3Cstop offset='0%25' style='stop-color:%238b7fff;stop-opacity:0.18' /%3E%3Cstop offset='40%25' style='stop-color:%236c5ce7;stop-opacity:0.1' /%3E%3Cstop offset='100%25' style='stop-color:%238b7fff;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='aurora3' cx='50%25' cy='60%25' r='45%25'%3E%3Cstop offset='0%25' style='stop-color:%2300d2ff;stop-opacity:0.12' /%3E%3Cstop offset='35%25' style='stop-color:%2300b4d8;stop-opacity:0.06' /%3E%3Cstop offset='100%25' style='stop-color:%2300d2ff;stop-opacity:0' /%3E%3C/radialGradient%3E%3Cpattern id='stars' x='0' y='0' width='200' height='200' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='15' r='0.8' fill='%23ffffff' opacity='0.6'/%3E%3Ccircle cx='85' cy='42' r='0.6' fill='%23ffffff' opacity='0.5'/%3E%3Ccircle cx='145' cy='78' r='0.7' fill='%23ffffff' opacity='0.7'/%3E%3Ccircle cx='35' cy='125' r='0.5' fill='%23ffffff' opacity='0.4'/%3E%3Ccircle cx='180' cy='165' r='0.8' fill='%23ffffff' opacity='0.6'/%3E%3Ccircle cx='120' cy='35' r='0.6' fill='%23ffffff' opacity='0.5'/%3E%3Ccircle cx='60' cy='180' r='0.7' fill='%23ffffff' opacity='0.5'/%3E%3Ccircle cx='165' cy='110' r='0.5' fill='%23ffffff' opacity='0.7'/%3E%3Ccircle cx='25' cy='68' r='0.9' fill='%2364ffda' opacity='0.4'/%3E%3Ccircle cx='195' cy='25' r='0.8' fill='%238b7fff' opacity='0.5'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23sky)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23stars)'/%3E%3Cellipse cx='20%25' cy='30%25' rx='600' ry='400' fill='url(%23aurora1)'/%3E%3Cellipse cx='80%25' cy='40%25' rx='700' ry='500' fill='url(%23aurora2)'/%3E%3Cellipse cx='50%25' cy='60%25' rx='550' ry='380' fill='url(%23aurora3)'/%3E%3C/svg%3E") no-repeat center center fixed !important;
+    background-size: cover !important;
+    --app-bg-secondary: rgba(10, 22, 40, 0.95); /* Dialog, Offcanvas background*/
+    --app-bg-tertiary: rgba(20, 40, 68, 0.8); /* Hover background, text group icon background */
+
+    --app-text-color-primary: #e8f4f8; /*Readable on bg-primary*/
+    --app-text-color-primary-muted: rgba(232, 244, 248, 0.7); /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #b8e6f5; /*Readable on bg-secondary*/
+    --app-text-color-tertiary: #64ffda; /*Readable on bg-tertiary*/
+
+    --app-highlight-color: #64ffda; /* Highlight color - Aurora cyan, used for buttons and links*/
+    --app-highlight-color-secondary: rgba(100, 255, 218, 0.25); /* Highlight color, used for selected item*/
+
+    --app-link-color: #00d2ff; /* Link color - Arctic blue*/
+    --app-link-hover-color: #64ffda; /* Link hover color - Aurora cyan*/
+
+    /* BUTTONS */
+    /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: linear-gradient(135deg, #64ffda 0%, #00d2ff 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #00d2ff 0%, #8b7fff 100%);
+    --app-button-primary-text-color: #0a1628;
+    --app-button-primary-text-hover: #ffffff;
+
+    /* Secondary button should be visible on the secondary background. */
+    --app-button-secondary-background: rgba(100, 255, 218, 0.1);
+    --app-button-secondary-background-hover: rgba(100, 255, 218, 0.25);
+    --app-button-secondary-text-color: #64ffda;
+    --app-button-secondary-text-hover: #ffffff;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: linear-gradient(180deg, rgba(10, 22, 40, 0.92) 0%, rgba(15, 31, 53, 0.92) 50%, rgba(20, 40, 68, 0.92) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 1px solid rgba(100, 255, 218, 0.2);
+    --app-sidebar-shadow: 0 0 25px rgba(100, 255, 218, 0.15), inset 0 0 15px rgba(0, 210, 255, 0.05);
+    --app-sidebar-menu-item-color: rgba(100, 255, 218, 0.7);
+    --app-sidebar-menu-item-hover-background: rgba(100, 255, 218, 0.12);
+    --app-sidebar-menu-item-hover-color: #64ffda;
+    --app-sidebar-menu-item-active-color: #ffffff;
+    --app-sidebar-menu-item-active-border-color: #64ffda;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(100, 255, 218, 0.2) 0%, rgba(0, 210, 255, 0.2) 100%);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: linear-gradient(90deg, rgba(10, 22, 40, 0.88) 0%, rgba(15, 31, 53, 0.88) 50%, rgba(20, 40, 68, 0.88) 100%);
+    --app-topbar-shadow: 0 4px 20px rgba(100, 255, 218, 0.1), 0 0 40px rgba(0, 210, 255, 0.08);
+    --app-topbar-border: 1px solid rgba(100, 255, 218, 0.15);
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgba(15, 31, 53, 0.7);
+    --app-search-input-text-color: #e8f4f8;
+    --app-search-input-placeholder-color: rgba(100, 255, 218, 0.5);
+    --app-search-input-border: 1px solid rgba(100, 255, 218, 0.3);
+    --app-search-input-focus-border: 1px solid rgba(100, 255, 218, 0.8);
+    --app-search-input-focus-boxshadow: 0 0 15px rgba(100, 255, 218, 0.4), inset 0 0 8px rgba(0, 210, 255, 0.2);
+    --app-search-results-border-bottom: 2px solid rgba(100, 255, 218, 0.3);
+    --app-search-results-item-background-color: rgba(10, 22, 40, 0.95);
+    --app-search-results-item-text-color: #e8f4f8;
+    --app-search-results-item-hover-text-color: #64ffda;
+    --app-search-results-item-active-text-color: #ffffff;
+    --app-search-results-item-hover-background-color: rgba(20, 40, 68, 0.9);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(100, 255, 218, 0.15) 0%, rgba(0, 210, 255, 0.15) 100%);
+    --app-frontcard-title-text-color: #64ffda;
+    --app-frontcard-text-color: #e8f4f8;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2364ffda'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2364ffda'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: #b8e6f5;
+    --app-tab-active-text-color: #64ffda;
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(100, 255, 218, 0.1);
+    --app-toolbar-button-text-color: #b8e6f5;
+    --app-toolbar-button-hover-bg: rgba(100, 255, 218, 0.2);
+    --app-toolbar-button-disabled-text-color: rgba(184, 230, 245, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, rgba(100, 255, 218, 0.3) 0%, rgba(0, 210, 255, 0.3) 100%);
+    --app-toolbar-button-active-text-color: #ffffff;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(20, 40, 68, 0.3);
+    --app-bookresult-list-odditem-hover-background: rgba(100, 255, 218, 0.1);
+    --app-bookresult-list-title-text-color: #00d2ff;
+    --app-bookresult-list-author-text-color: #b8e6f5;
+    --app-bookresult-list-date-text-color: rgba(100, 255, 218, 0.8);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: rgba(15, 31, 53, 0.6);
+    --app-bookdetails-title-text-color: #64ffda;
+    --app-bookdetails-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3), 0 0 25px rgba(100, 255, 218, 0.2);
+    --app-bookdetails-border-radius: 0.75rem;
+    --app-bookdetails-label-background-color: rgba(20, 40, 68, 0.8);
+    --app-bookdetails-label-text-color: #b8e6f5;
+
+    .badge {
+        background-color: rgba(20, 40, 68, 0.9) !important;
+        color: #64ffda !important;
+    }
+
+    .list-group-item-action:hover {
+        color: #64ffda !important;
+    }
+}
+
+html[dir="rtl"] body[data-theme="Nordic Aurora"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(10, 22, 40, 0.88) 0%, rgba(15, 31, 53, 0.88) 50%, rgba(20, 40, 68, 0.88) 100%);
+}

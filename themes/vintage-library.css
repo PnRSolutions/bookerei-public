@@ -1,0 +1,119 @@
+/*
+Author: d3lboy
+Url: https://github.com/PnRSolutions/bookerei-public
+Description: Vintage Library - A warm, nostalgic theme inspired by old libraries with aged paper, leather-bound books, and antique wood tones
+*/
+
+body[data-theme="Vintage Library"] {
+    /* GENERAL */
+    --app-bg-primary: #2b1d0e;
+    background: #2b1d0e url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='wood-grain' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%232b1d0e;stop-opacity:1' /%3E%3Cstop offset='30%25' style='stop-color:%23402a15;stop-opacity:1' /%3E%3Cstop offset='70%25' style='stop-color:%23593d1f;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%232b1d0e;stop-opacity:1' /%3E%3C/linearGradient%3E%3Cpattern id='paper-texture' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='15' cy='20' r='1' fill='%23d4a574' opacity='0.03'/%3E%3Ccircle cx='45' cy='38' r='0.8' fill='%23d4a574' opacity='0.04'/%3E%3Ccircle cx='78' cy='65' r='1.2' fill='%23d4a574' opacity='0.02'/%3E%3Ccircle cx='22' cy='82' r='0.9' fill='%23d4a574' opacity='0.03'/%3E%3Ccircle cx='88' cy='12' r='0.7' fill='%23d4a574' opacity='0.04'/%3E%3Ccircle cx='56' cy='91' r='1.1' fill='%23d4a574' opacity='0.02'/%3E%3Ccircle cx='92' cy='48' r='0.8' fill='%23d4a574' opacity='0.03'/%3E%3Ccircle cx='33' cy='55' r='1' fill='%23d4a574' opacity='0.04'/%3E%3Ccircle cx='67' cy='28' r='0.9' fill='%23d4a574' opacity='0.02'/%3E%3C/pattern%3E%3Cpattern id='bookshelf' width='400' height='300' patternUnits='userSpaceOnUse'%3E%3Crect x='10' y='20' width='8' height='45' fill='%23704214' opacity='0.15'/%3E%3Crect x='22' y='15' width='10' height='50' fill='%2351200f' opacity='0.12'/%3E%3Crect x='36' y='25' width='7' height='40' fill='%2386562f' opacity='0.13'/%3E%3Crect x='47' y='18' width='9' height='47' fill='%235c2d10' opacity='0.14'/%3E%3Crect x='60' y='22' width='11' height='43' fill='%23704214' opacity='0.11'/%3E%3Crect x='75' y='16' width='8' height='49' fill='%2386562f' opacity='0.15'/%3E%3Crect x='87' y='20' width='10' height='45' fill='%2351200f' opacity='0.12'/%3E%3Crect x='210' y='180' width='9' height='48' fill='%23704214' opacity='0.13'/%3E%3Crect x='223' y='175' width='11' height='53' fill='%2351200f' opacity='0.14'/%3E%3Crect x='238' y='185' width='8' height='43' fill='%2386562f' opacity='0.12'/%3E%3Crect x='250' y='178' width='10' height='50' fill='%235c2d10' opacity='0.15'/%3E%3C/pattern%3E%3CradialGradient id='lamp-glow' cx='30%25' cy='20%25' r='50%25'%3E%3Cstop offset='0%25' style='stop-color:%23ffd89b;stop-opacity:0.08' /%3E%3Cstop offset='40%25' style='stop-color:%23d4a574;stop-opacity:0.04' /%3E%3Cstop offset='100%25' style='stop-color:%23ffd89b;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='candle-glow' cx='75%25' cy='65%25' r='35%25'%3E%3Cstop offset='0%25' style='stop-color:%23ffb347;stop-opacity:0.06' /%3E%3Cstop offset='50%25' style='stop-color:%23d4a574;stop-opacity:0.03' /%3E%3Cstop offset='100%25' style='stop-color:%23ffb347;stop-opacity:0' /%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23wood-grain)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23bookshelf)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23paper-texture)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23lamp-glow)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23candle-glow)'/%3E%3C/svg%3E") no-repeat center center fixed !important;
+    background-size: cover !important;
+    --app-bg-secondary: rgba(61, 40, 23, 0.96); /* Dialog, Offcanvas background - aged leather*/
+    --app-bg-tertiary: rgba(86, 60, 38, 0.8); /* Hover background, text group icon background */
+
+    --app-text-color-primary: #f5e6d3; /*Readable on bg-primary - aged paper*/
+    --app-text-color-primary-muted: rgba(245, 230, 211, 0.75); /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #e8d4b8; /*Readable on bg-secondary*/
+    --app-text-color-tertiary: #d4a574; /*Readable on bg-tertiary - gold lettering*/
+
+    --app-highlight-color: #c7956d; /* Highlight color - antique gold, used for buttons and links*/
+    --app-highlight-color-secondary: rgba(199, 149, 109, 0.3); /* Highlight color, used for selected item*/
+
+    --app-link-color: #d4a574; /* Link color - gold ink*/
+    --app-link-hover-color: #ffb347; /* Link hover color - bright gold*/
+
+    /* BUTTONS */
+    /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: linear-gradient(135deg, #86562f 0%, #704214 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #c7956d 0%, #d4a574 100%);
+    --app-button-primary-text-color: #f5e6d3;
+    --app-button-primary-text-hover: #2b1d0e;
+
+    /* Secondary button should be visible on the secondary background. */
+    --app-button-secondary-background: rgba(199, 149, 109, 0.15);
+    --app-button-secondary-background-hover: rgba(199, 149, 109, 0.35);
+    --app-button-secondary-text-color: #d4a574;
+    --app-button-secondary-text-hover: #f5e6d3;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: linear-gradient(180deg, rgba(43, 29, 14, 0.95) 0%, rgba(64, 42, 21, 0.95) 50%, rgba(43, 29, 14, 0.95) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 2px solid rgba(112, 66, 20, 0.4);
+    --app-sidebar-shadow: 0 0 20px rgba(0, 0, 0, 0.5), inset 0 0 25px rgba(199, 149, 109, 0.08);
+    --app-sidebar-menu-item-color: rgba(212, 165, 116, 0.8);
+    --app-sidebar-menu-item-hover-background: rgba(199, 149, 109, 0.15);
+    --app-sidebar-menu-item-hover-color: #d4a574;
+    --app-sidebar-menu-item-active-color: #ffb347;
+    --app-sidebar-menu-item-active-border-color: #c7956d;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(134, 86, 47, 0.4) 0%, rgba(112, 66, 20, 0.4) 100%);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: linear-gradient(90deg, rgba(43, 29, 14, 0.92) 0%, rgba(64, 42, 21, 0.92) 50%, rgba(43, 29, 14, 0.92) 100%);
+    --app-topbar-shadow: 0 5px 20px rgba(0, 0, 0, 0.4), 0 0 30px rgba(199, 149, 109, 0.1);
+    --app-topbar-border: 2px solid rgba(112, 66, 20, 0.3);
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgba(61, 40, 23, 0.75);
+    --app-search-input-text-color: #f5e6d3;
+    --app-search-input-placeholder-color: rgba(212, 165, 116, 0.65);
+    --app-search-input-border: 1px solid rgba(199, 149, 109, 0.4);
+    --app-search-input-focus-border: 2px solid rgba(212, 165, 116, 0.8);
+    --app-search-input-focus-boxshadow: 0 0 15px rgba(212, 165, 116, 0.4), inset 0 0 10px rgba(255, 179, 71, 0.15);
+    --app-search-results-border-bottom: 2px solid rgba(112, 66, 20, 0.5);
+    --app-search-results-item-background-color: rgba(43, 29, 14, 0.97);
+    --app-search-results-item-text-color: #f5e6d3;
+    --app-search-results-item-hover-text-color: #ffb347;
+    --app-search-results-item-active-text-color: #ffd89b;
+    --app-search-results-item-hover-background-color: rgba(112, 66, 20, 0.4);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(134, 86, 47, 0.3) 0%, rgba(112, 66, 20, 0.3) 100%);
+    --app-frontcard-title-text-color: #d4a574;
+    --app-frontcard-text-color: #f5e6d3;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d4a574'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d4a574'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: #d4a574;
+    --app-tab-active-text-color: #ffb347;
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(112, 66, 20, 0.3);
+    --app-toolbar-button-text-color: #e8d4b8;
+    --app-toolbar-button-hover-bg: rgba(199, 149, 109, 0.3);
+    --app-toolbar-button-disabled-text-color: rgba(212, 165, 116, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, rgba(134, 86, 47, 0.5) 0%, rgba(112, 66, 20, 0.5) 100%);
+    --app-toolbar-button-active-text-color: #ffd89b;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(64, 42, 21, 0.25);
+    --app-bookresult-list-odditem-hover-background: rgba(112, 66, 20, 0.35);
+    --app-bookresult-list-title-text-color: #ffb347;
+    --app-bookresult-list-author-text-color: #e8d4b8;
+    --app-bookresult-list-date-text-color: rgba(212, 165, 116, 0.9);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: rgba(61, 40, 23, 0.7);
+    --app-bookdetails-title-text-color: #d4a574;
+    --app-bookdetails-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5), 0 0 25px rgba(134, 86, 47, 0.2);
+    --app-bookdetails-border-radius: 0.5rem;
+    --app-bookdetails-label-background-color: rgba(86, 60, 38, 0.6);
+    --app-bookdetails-label-text-color: #e8d4b8;
+
+    .badge {
+        background-color: rgba(112, 66, 20, 0.6) !important;
+        color: #ffd89b !important;
+        border: 1px solid rgba(199, 149, 109, 0.4) !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .list-group-item-action:hover {
+        color: #ffb347 !important;
+    }
+}
+
+html[dir="rtl"] body[data-theme="Vintage Library"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(43, 29, 14, 0.92) 0%, rgba(64, 42, 21, 0.92) 50%, rgba(43, 29, 14, 0.92) 100%);
+}

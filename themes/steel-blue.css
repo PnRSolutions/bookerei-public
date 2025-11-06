@@ -1,0 +1,120 @@
+/*
+Author: d3lboy
+Url: https://github.com/PnRSolutions/bookerei-public
+Description: Steel Blue - A sophisticated, professional theme with cool blue steel tones and warm cream accents, inspired by industrial design
+*/
+
+body[data-theme="Steel Blue"] {
+    /* GENERAL */
+    --app-bg-primary: #0d1321;
+    background: #0d1321 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='steel-gradient' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230d1321;stop-opacity:1' /%3E%3Cstop offset='30%25' style='stop-color:%231d2d44;stop-opacity:1' /%3E%3Cstop offset='70%25' style='stop-color:%231d2d44;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230d1321;stop-opacity:1' /%3E%3C/linearGradient%3E%3ClinearGradient id='metallic-shine' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233e5c76;stop-opacity:0.15' /%3E%3Cstop offset='30%25' style='stop-color:%23748cab;stop-opacity:0.08' /%3E%3Cstop offset='50%25' style='stop-color:%23f0ebd8;stop-opacity:0.12' /%3E%3Cstop offset='70%25' style='stop-color:%23748cab;stop-opacity:0.08' /%3E%3Cstop offset='100%25' style='stop-color:%233e5c76;stop-opacity:0.15' /%3E%3C/linearGradient%3E%3CradialGradient id='steel-glow' cx='30%25' cy='40%25' r='50%25'%3E%3Cstop offset='0%25' style='stop-color:%23748cab;stop-opacity:0.15' /%3E%3Cstop offset='50%25' style='stop-color:%233e5c76;stop-opacity:0.08' /%3E%3Cstop offset='100%25' style='stop-color:%23748cab;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='cream-glow' cx='70%25' cy='60%25' r='45%25'%3E%3Cstop offset='0%25' style='stop-color:%23f0ebd8;stop-opacity:0.1' /%3E%3Cstop offset='50%25' style='stop-color:%23f0ebd8;stop-opacity:0.05' /%3E%3Cstop offset='100%25' style='stop-color:%23f0ebd8;stop-opacity:0' /%3E%3C/radialGradient%3E%3Cpattern id='brushed-metal' width='4' height='100' patternUnits='userSpaceOnUse'%3E%3Cline x1='0' y1='0' x2='0' y2='100' stroke='%233e5c76' stroke-width='0.5' opacity='0.1'/%3E%3Cline x1='1' y1='0' x2='1' y2='100' stroke='%23748cab' stroke-width='0.3' opacity='0.08'/%3E%3Cline x1='2' y1='0' x2='2' y2='100' stroke='%233e5c76' stroke-width='0.4' opacity='0.09'/%3E%3Cline x1='3' y1='0' x2='3' y2='100' stroke='%231d2d44' stroke-width='0.5' opacity='0.07'/%3E%3C/pattern%3E%3Cpattern id='rivets' width='150' height='150' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='25' cy='25' r='3' fill='%23748cab' opacity='0.2'/%3E%3Ccircle cx='25' cy='25' r='2' fill='%23f0ebd8' opacity='0.15'/%3E%3Ccircle cx='25' cy='25' r='1' fill='%233e5c76' opacity='0.25'/%3E%3Ccircle cx='125' cy='25' r='3' fill='%23748cab' opacity='0.18'/%3E%3Ccircle cx='125' cy='25' r='2' fill='%23f0ebd8' opacity='0.12'/%3E%3Ccircle cx='25' cy='125' r='3' fill='%23748cab' opacity='0.19'/%3E%3Ccircle cx='25' cy='125' r='2' fill='%23f0ebd8' opacity='0.13'/%3E%3Ccircle cx='125' cy='125' r='3' fill='%23748cab' opacity='0.17'/%3E%3Ccircle cx='125' cy='125' r='2' fill='%23f0ebd8' opacity='0.14'/%3E%3Ccircle cx='75' cy='75' r='2.5' fill='%233e5c76' opacity='0.2'/%3E%3Ccircle cx='75' cy='75' r='1.5' fill='%23f0ebd8' opacity='0.16'/%3E%3C/pattern%3E%3Cpattern id='steel-panels' width='300' height='200' patternUnits='userSpaceOnUse'%3E%3Crect x='10' y='10' width='130' height='80' fill='none' stroke='%233e5c76' stroke-width='1' opacity='0.15'/%3E%3Cline x1='10' y1='50' x2='140' y2='50' stroke='%23748cab' stroke-width='0.5' opacity='0.1'/%3E%3Crect x='160' y='110' width='130' height='80' fill='none' stroke='%233e5c76' stroke-width='1' opacity='0.13'/%3E%3Cline x1='160' y1='150' x2='290' y2='150' stroke='%23748cab' stroke-width='0.5' opacity='0.09'/%3E%3C/pattern%3E%3Cpattern id='bolts' width='200' height='200' patternUnits='userSpaceOnUse'%3E%3Cpath d='M40,40 L42,38 L44,40 L42,42 Z' fill='%23748cab' opacity='0.15'/%3E%3Ccircle cx='42' cy='40' r='1.5' fill='%23f0ebd8' opacity='0.2'/%3E%3Ccircle cx='42' cy='40' r='0.8' fill='%233e5c76' opacity='0.25'/%3E%3Cpath d='M160,150 L162,148 L164,150 L162,152 Z' fill='%23748cab' opacity='0.14'/%3E%3Ccircle cx='162' cy='150' r='1.5' fill='%23f0ebd8' opacity='0.18'/%3E%3Ccircle cx='162' cy='150' r='0.8' fill='%233e5c76' opacity='0.22'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23steel-gradient)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23metallic-shine)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23steel-glow)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23cream-glow)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23brushed-metal)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23steel-panels)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23rivets)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23bolts)'/%3E%3C/svg%3E") no-repeat center center fixed !important;
+    background-size: cover !important;
+    --app-bg-secondary: rgba(29, 45, 68, 0.96); /* Dialog, Offcanvas background*/
+    --app-bg-tertiary: rgba(62, 92, 118, 0.2); /* Hover background, text group icon background */
+
+    --app-text-color-primary: #f0ebd8; /*Readable on bg-primary - warm cream*/
+    --app-text-color-primary-muted: rgba(240, 235, 216, 0.75); /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #e8e3d0; /*Readable on bg-secondary - pale cream*/
+    --app-text-color-tertiary: #748cab; /*Readable on bg-tertiary - steel blue*/
+
+    --app-highlight-color: #748cab; /* Highlight color - steel blue, used for buttons and links*/
+    --app-highlight-color-secondary: rgba(116, 140, 171, 0.3); /* Highlight color, used for selected item*/
+
+    --app-link-color: #a8bdd0; /* Link color - light steel*/
+    --app-link-hover-color: #f0ebd8; /* Link hover color - cream*/
+
+    /* BUTTONS */
+    /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: linear-gradient(135deg, #3e5c76 0%, #748cab 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #748cab 0%, #f0ebd8 100%);
+    --app-button-primary-text-color: #f0ebd8;
+    --app-button-primary-text-hover: #0d1321;
+
+    /* Secondary button should be visible on the secondary background. */
+    --app-button-secondary-background: rgba(116, 140, 171, 0.15);
+    --app-button-secondary-background-hover: rgba(116, 140, 171, 0.3);
+    --app-button-secondary-text-color: #748cab;
+    --app-button-secondary-text-hover: #f0ebd8;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: linear-gradient(180deg, rgba(13, 19, 33, 0.95) 0%, rgba(29, 45, 68, 0.95) 50%, rgba(13, 19, 33, 0.95) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 2px solid rgba(62, 92, 118, 0.35);
+    --app-sidebar-shadow: 0 0 25px rgba(116, 140, 171, 0.2), inset 0 0 30px rgba(240, 235, 216, 0.05);
+    --app-sidebar-menu-item-color: rgba(168, 189, 208, 0.85);
+    --app-sidebar-menu-item-hover-background: rgba(62, 92, 118, 0.2);
+    --app-sidebar-menu-item-hover-color: #f0ebd8;
+    --app-sidebar-menu-item-active-color: #f0ebd8;
+    --app-sidebar-menu-item-active-border-color: #748cab;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(62, 92, 118, 0.3) 0%, rgba(116, 140, 171, 0.3) 100%);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: linear-gradient(90deg, rgba(13, 19, 33, 0.92) 0%, rgba(29, 45, 68, 0.92) 50%, rgba(13, 19, 33, 0.92) 100%);
+    --app-topbar-shadow: 0 5px 20px rgba(62, 92, 118, 0.25), 0 0 30px rgba(116, 140, 171, 0.15);
+    --app-topbar-border: 2px solid rgba(62, 92, 118, 0.3);
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgba(29, 45, 68, 0.8);
+    --app-search-input-text-color: #f0ebd8;
+    --app-search-input-placeholder-color: rgba(116, 140, 171, 0.65);
+    --app-search-input-border: 1px solid rgba(62, 92, 118, 0.5);
+    --app-search-input-focus-border: 2px solid rgba(116, 140, 171, 0.8);
+    --app-search-input-focus-boxshadow: 0 0 20px rgba(116, 140, 171, 0.3), inset 0 0 10px rgba(240, 235, 216, 0.1);
+    --app-search-results-border-bottom: 2px solid rgba(62, 92, 118, 0.4);
+    --app-search-results-item-background-color: rgba(13, 19, 33, 0.97);
+    --app-search-results-item-text-color: #f0ebd8;
+    --app-search-results-item-hover-text-color: #ffffff;
+    --app-search-results-item-active-text-color: #f0ebd8;
+    --app-search-results-item-hover-background-color: rgba(62, 92, 118, 0.3);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(62, 92, 118, 0.2) 0%, rgba(116, 140, 171, 0.2) 100%);
+    --app-frontcard-title-text-color: #a8bdd0;
+    --app-frontcard-text-color: #f0ebd8;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23748cab'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23748cab'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: #a8bdd0;
+    --app-tab-active-text-color: #f0ebd8;
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(62, 92, 118, 0.15);
+    --app-toolbar-button-text-color: #a8bdd0;
+    --app-toolbar-button-hover-bg: rgba(116, 140, 171, 0.25);
+    --app-toolbar-button-disabled-text-color: rgba(116, 140, 171, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, rgba(62, 92, 118, 0.35) 0%, rgba(116, 140, 171, 0.35) 100%);
+    --app-toolbar-button-active-text-color: #f0ebd8;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(29, 45, 68, 0.25);
+    --app-bookresult-list-odditem-hover-background: rgba(62, 92, 118, 0.3);
+    --app-bookresult-list-title-text-color: #a8bdd0;
+    --app-bookresult-list-author-text-color: #e8e3d0;
+    --app-bookresult-list-date-text-color: rgba(116, 140, 171, 0.9);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: rgba(29, 45, 68, 0.7);
+    --app-bookdetails-title-text-color: #f0ebd8;
+    --app-bookdetails-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.4), 0 0 25px rgba(62, 92, 118, 0.3);
+    --app-bookdetails-border-radius: 0.5rem;
+    --app-bookdetails-label-background-color: rgba(62, 92, 118, 0.3);
+    --app-bookdetails-label-text-color: #e8e3d0;
+
+    .badge {
+        background: linear-gradient(135deg, rgba(62, 92, 118, 0.5) 0%, rgba(116, 140, 171, 0.5) 100%) !important;
+        color: #f0ebd8 !important;
+        border: 1px solid rgba(116, 140, 171, 0.5) !important;
+        box-shadow: 0 0 12px rgba(116, 140, 171, 0.3), 0 2px 8px rgba(0, 0, 0, 0.3);
+        font-weight: 500;
+    }
+
+    .list-group-item-action:hover {
+        color: #f0ebd8 !important;
+    }
+}
+
+html[dir="rtl"] body[data-theme="Steel Blue"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(13, 19, 33, 0.92) 0%, rgba(29, 45, 68, 0.92) 50%, rgba(13, 19, 33, 0.92) 100%);
+}

@@ -1,0 +1,120 @@
+/*
+Author: d3lboy
+Url: https://github.com/PnRSolutions/bookerei-public
+Description: Christmas Magic - A festive holiday theme with falling snow, Christmas lights, and Santa's workshop colors
+*/
+
+body[data-theme="Christmas Magic"] {
+    /* GENERAL */
+    --app-bg-primary: #0d1b2a;
+    background: #0d1b2a url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='winter-sky' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230d1b2a;stop-opacity:1' /%3E%3Cstop offset='50%25' style='stop-color:%231b263b;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230d1b2a;stop-opacity:1' /%3E%3C/linearGradient%3E%3Cpattern id='snowflakes' width='200' height='200' patternUnits='userSpaceOnUse'%3E%3Cpath d='M20,30 L20,22 M16,26 L24,26 M17.5,23.5 L22.5,28.5 M22.5,23.5 L17.5,28.5' stroke='%23ffffff' stroke-width='0.8' opacity='0.6' fill='none'/%3E%3Cpath d='M80,65 L80,57 M76,61 L84,61 M77.5,58.5 L82.5,63.5 M82.5,58.5 L77.5,63.5' stroke='%23e0f4ff' stroke-width='0.7' opacity='0.5' fill='none'/%3E%3Cpath d='M150,100 L150,92 M146,96 L154,96 M147.5,93.5 L152.5,98.5 M152.5,93.5 L147.5,98.5' stroke='%23ffffff' stroke-width='0.9' opacity='0.7' fill='none'/%3E%3Cpath d='M45,155 L45,147 M41,151 L49,151 M42.5,148.5 L47.5,153.5 M47.5,148.5 L42.5,153.5' stroke='%23e0f4ff' stroke-width='0.6' opacity='0.4' fill='none'/%3E%3Cpath d='M180,35 L180,27 M176,31 L184,31 M177.5,28.5 L182.5,33.5 M182.5,28.5 L177.5,33.5' stroke='%23ffffff' stroke-width='0.8' opacity='0.6' fill='none'/%3E%3Cpath d='M115,180 L115,172 M111,176 L119,176 M112.5,173.5 L117.5,178.5 M117.5,173.5 L112.5,178.5' stroke='%23e0f4ff' stroke-width='0.7' opacity='0.5' fill='none'/%3E%3Ccircle cx='35' cy='85' r='1.2' fill='%23ffffff' opacity='0.7'/%3E%3Ccircle cx='95' cy='140' r='1' fill='%23e0f4ff' opacity='0.6'/%3E%3Ccircle cx='165' cy='70' r='1.3' fill='%23ffffff' opacity='0.8'/%3E%3Ccircle cx='55' cy='120' r='0.9' fill='%23e0f4ff' opacity='0.5'/%3E%3Ccircle cx='125' cy='45' r='1.1' fill='%23ffffff' opacity='0.7'/%3E%3C/pattern%3E%3Cpattern id='christmas-lights' width='100' height='30' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='10' cy='15' r='2.5' fill='%23ff6b6b' opacity='0.6'/%3E%3Ccircle cx='30' cy='15' r='2.5' fill='%2351cf66' opacity='0.6'/%3E%3Ccircle cx='50' cy='15' r='2.5' fill='%23ffd93d' opacity='0.6'/%3E%3Ccircle cx='70' cy='15' r='2.5' fill='%234ecdc4' opacity='0.6'/%3E%3Ccircle cx='90' cy='15' r='2.5' fill='%23c92a2a' opacity='0.6'/%3E%3Cpath d='M0,15 L100,15' stroke='%23415a77' stroke-width='0.8' opacity='0.3'/%3E%3C/pattern%3E%3CradialGradient id='red-glow' cx='25%25' cy='30%25' r='45%25'%3E%3Cstop offset='0%25' style='stop-color:%23c92a2a;stop-opacity:0.12' /%3E%3Cstop offset='50%25' style='stop-color:%23c92a2a;stop-opacity:0.05' /%3E%3Cstop offset='100%25' style='stop-color:%23c92a2a;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='green-glow' cx='75%25' cy='70%25' r='50%25'%3E%3Cstop offset='0%25' style='stop-color:%232b8a3e;stop-opacity:0.1' /%3E%3Cstop offset='50%25' style='stop-color:%232b8a3e;stop-opacity:0.04' /%3E%3Cstop offset='100%25' style='stop-color:%232b8a3e;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='gold-glow' cx='50%25' cy='50%25' r='40%25'%3E%3Cstop offset='0%25' style='stop-color:%23ffd93d;stop-opacity:0.08' /%3E%3Cstop offset='50%25' style='stop-color:%23ffd93d;stop-opacity:0.03' /%3E%3Cstop offset='100%25' style='stop-color:%23ffd93d;stop-opacity:0' /%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23winter-sky)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23red-glow)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23green-glow)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23gold-glow)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23snowflakes)'/%3E%3Crect y='0' width='100%25' height='30' fill='url(%23christmas-lights)'/%3E%3C/svg%3E") no-repeat center center fixed !important;
+    background-size: cover !important;
+    --app-bg-secondary: rgba(27, 38, 59, 0.95); /* Dialog, Offcanvas background*/
+    --app-bg-tertiary: rgba(201, 42, 42, 0.15); /* Hover background, text group icon background */
+
+    --app-text-color-primary: #f8f9fa; /*Readable on bg-primary - snow white*/
+    --app-text-color-primary-muted: rgba(248, 249, 250, 0.75); /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #e0f4ff; /*Readable on bg-secondary - icy white*/
+    --app-text-color-tertiary: #ffd93d; /*Readable on bg-tertiary - golden star*/
+
+    --app-highlight-color: #c92a2a; /* Highlight color - Santa red, used for buttons and links*/
+    --app-highlight-color-secondary: rgba(201, 42, 42, 0.3); /* Highlight color, used for selected item*/
+
+    --app-link-color: #51cf66; /* Link color - Christmas green*/
+    --app-link-hover-color: #ffd93d; /* Link hover color - golden star*/
+
+    /* BUTTONS */
+    /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: linear-gradient(135deg, #c92a2a 0%, #2b8a3e 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #ffd93d 0%, #ff6b6b 100%);
+    --app-button-primary-text-color: #ffffff;
+    --app-button-primary-text-hover: #0d1b2a;
+
+    /* Secondary button should be visible on the secondary background. */
+    --app-button-secondary-background: rgba(201, 42, 42, 0.2);
+    --app-button-secondary-background-hover: rgba(81, 207, 102, 0.3);
+    --app-button-secondary-text-color: #51cf66;
+    --app-button-secondary-text-hover: #ffd93d;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: linear-gradient(180deg, rgba(13, 27, 42, 0.95) 0%, rgba(27, 38, 59, 0.95) 50%, rgba(13, 27, 42, 0.95) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 2px solid rgba(201, 42, 42, 0.4);
+    --app-sidebar-shadow: 0 0 25px rgba(201, 42, 42, 0.3), 0 0 40px rgba(43, 138, 62, 0.2), inset 0 0 20px rgba(255, 217, 61, 0.05);
+    --app-sidebar-menu-item-color: rgba(81, 207, 102, 0.8);
+    --app-sidebar-menu-item-hover-background: rgba(201, 42, 42, 0.2);
+    --app-sidebar-menu-item-hover-color: #ffd93d;
+    --app-sidebar-menu-item-active-color: #ffffff;
+    --app-sidebar-menu-item-active-border-color: #c92a2a;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(201, 42, 42, 0.3) 0%, rgba(43, 138, 62, 0.3) 100%);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: linear-gradient(90deg, rgba(13, 27, 42, 0.9) 0%, rgba(27, 38, 59, 0.9) 50%, rgba(13, 27, 42, 0.9) 100%);
+    --app-topbar-shadow: 0 5px 20px rgba(201, 42, 42, 0.2), 0 0 40px rgba(43, 138, 62, 0.15);
+    --app-topbar-border: 2px solid rgba(201, 42, 42, 0.3);
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgba(27, 38, 59, 0.8);
+    --app-search-input-text-color: #f8f9fa;
+    --app-search-input-placeholder-color: rgba(81, 207, 102, 0.6);
+    --app-search-input-border: 2px solid rgba(201, 42, 42, 0.4);
+    --app-search-input-focus-border: 2px solid rgba(201, 42, 42, 0.8);
+    --app-search-input-focus-boxshadow: 0 0 20px rgba(201, 42, 42, 0.4), 0 0 15px rgba(255, 217, 61, 0.3);
+    --app-search-results-border-bottom: 3px solid rgba(43, 138, 62, 0.5);
+    --app-search-results-item-background-color: rgba(13, 27, 42, 0.97);
+    --app-search-results-item-text-color: #f8f9fa;
+    --app-search-results-item-hover-text-color: #ffd93d;
+    --app-search-results-item-active-text-color: #ffffff;
+    --app-search-results-item-hover-background-color: rgba(201, 42, 42, 0.25);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(201, 42, 42, 0.25) 0%, rgba(43, 138, 62, 0.25) 100%);
+    --app-frontcard-title-text-color: #ffd93d;
+    --app-frontcard-text-color: #f8f9fa;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23c92a2a'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23c92a2a'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: #51cf66;
+    --app-tab-active-text-color: #ffd93d;
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(201, 42, 42, 0.15);
+    --app-toolbar-button-text-color: #e0f4ff;
+    --app-toolbar-button-hover-bg: rgba(43, 138, 62, 0.25);
+    --app-toolbar-button-disabled-text-color: rgba(224, 244, 255, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, rgba(201, 42, 42, 0.4) 0%, rgba(43, 138, 62, 0.4) 100%);
+    --app-toolbar-button-active-text-color: #ffd93d;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(27, 38, 59, 0.3);
+    --app-bookresult-list-odditem-hover-background: rgba(201, 42, 42, 0.2);
+    --app-bookresult-list-title-text-color: #ffd93d;
+    --app-bookresult-list-author-text-color: #e0f4ff;
+    --app-bookresult-list-date-text-color: rgba(81, 207, 102, 0.9);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: rgba(27, 38, 59, 0.7);
+    --app-bookdetails-title-text-color: #ffd93d;
+    --app-bookdetails-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.4), 0 0 30px rgba(201, 42, 42, 0.3), 0 0 20px rgba(43, 138, 62, 0.2);
+    --app-bookdetails-border-radius: 0.75rem;
+    --app-bookdetails-label-background-color: rgba(201, 42, 42, 0.25);
+    --app-bookdetails-label-text-color: #e0f4ff;
+
+    .badge {
+        background: linear-gradient(135deg, rgba(201, 42, 42, 0.5) 0%, rgba(43, 138, 62, 0.5) 100%) !important;
+        color: #ffd93d !important;
+        border: 2px solid rgba(255, 217, 61, 0.4) !important;
+        box-shadow: 0 0 10px rgba(255, 217, 61, 0.3), 0 2px 8px rgba(0, 0, 0, 0.3);
+        font-weight: 600;
+    }
+
+    .list-group-item-action:hover {
+        color: #ffd93d !important;
+    }
+}
+
+html[dir="rtl"] body[data-theme="Christmas Magic"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(13, 27, 42, 0.9) 0%, rgba(27, 38, 59, 0.9) 50%, rgba(13, 27, 42, 0.9) 100%);
+}

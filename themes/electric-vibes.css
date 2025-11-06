@@ -1,0 +1,121 @@
+/*
+Author: d3lboy
+Url: https://github.com/PnRSolutions/bookerei-public
+Description: Electric Vibes - A bold, energetic theme with vibrant purples, pinks, yellows, and cyans creating an electric, dynamic atmosphere
+*/
+
+body[data-theme="Electric Vibes"] {
+    /* GENERAL */
+    --app-bg-primary: #0e0820;
+    background: #0e0820 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='electric-sky' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230e0820;stop-opacity:1' /%3E%3Cstop offset='20%25' style='stop-color:%231a0d2e;stop-opacity:1' /%3E%3Cstop offset='40%25' style='stop-color:%23160a2d;stop-opacity:1' /%3E%3Cstop offset='60%25' style='stop-color:%230d1428;stop-opacity:1' /%3E%3Cstop offset='80%25' style='stop-color:%231a0d2e;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230e0820;stop-opacity:1' /%3E%3C/linearGradient%3E%3CradialGradient id='purple-burst' cx='15%25' cy='20%25' r='40%25'%3E%3Cstop offset='0%25' style='stop-color:%239b5de5;stop-opacity:0.25' /%3E%3Cstop offset='50%25' style='stop-color:%239b5de5;stop-opacity:0.12' /%3E%3Cstop offset='100%25' style='stop-color:%239b5de5;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='pink-burst' cx='85%25' cy='30%25' r='45%25'%3E%3Cstop offset='0%25' style='stop-color:%23f15bb5;stop-opacity:0.22' /%3E%3Cstop offset='50%25' style='stop-color:%23f15bb5;stop-opacity:0.1' /%3E%3Cstop offset='100%25' style='stop-color:%23f15bb5;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='cyan-burst' cx='30%25' cy='80%25' r='50%25'%3E%3Cstop offset='0%25' style='stop-color:%2300bbf9;stop-opacity:0.2' /%3E%3Cstop offset='50%25' style='stop-color:%2300f5d4;stop-opacity:0.1' /%3E%3Cstop offset='100%25' style='stop-color:%2300bbf9;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='yellow-burst' cx='75%25' cy='85%25' r='40%25'%3E%3Cstop offset='0%25' style='stop-color:%23fee440;stop-opacity:0.18' /%3E%3Cstop offset='50%25' style='stop-color:%23fee440;stop-opacity:0.08' /%3E%3Cstop offset='100%25' style='stop-color:%23fee440;stop-opacity:0' /%3E%3C/radialGradient%3E%3Cpattern id='lightning-bolts' width='300' height='300' patternUnits='userSpaceOnUse'%3E%3Cpath d='M80,50 L75,80 L85,80 L70,120' stroke='%23fee440' stroke-width='2.5' fill='none' opacity='0.15' stroke-linejoin='miter'/%3E%3Cpath d='M78,52 L73,82 L83,82 L68,122' stroke='%23fee440' stroke-width='1' fill='none' opacity='0.25' stroke-linejoin='miter'/%3E%3Cpath d='M220,180 L215,210 L225,210 L210,250' stroke='%2300f5d4' stroke-width='2.3' fill='none' opacity='0.12' stroke-linejoin='miter'/%3E%3Cpath d='M218,182 L213,212 L223,212 L208,252' stroke='%2300f5d4' stroke-width='0.9' fill='none' opacity='0.22' stroke-linejoin='miter'/%3E%3C/pattern%3E%3Cpattern id='electric-waves' width='400' height='200' patternUnits='userSpaceOnUse'%3E%3Cpath d='M0,100 Q50,70 100,100 T200,100 T300,100 T400,100' stroke='%239b5de5' stroke-width='2' fill='none' opacity='0.12'/%3E%3Cpath d='M0,110 Q50,140 100,110 T200,110 T300,110 T400,110' stroke='%23f15bb5' stroke-width='1.8' fill='none' opacity='0.1'/%3E%3Cpath d='M0,90 Q50,60 100,90 T200,90 T300,90 T400,90' stroke='%2300bbf9' stroke-width='1.5' fill='none' opacity='0.11'/%3E%3Cpath d='M0,120 Q50,150 100,120 T200,120 T300,120 T400,120' stroke='%2300f5d4' stroke-width='1.6' fill='none' opacity='0.09'/%3E%3C/pattern%3E%3Cpattern id='energy-rings' width='250' height='250' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='60' cy='60' r='20' stroke='%239b5de5' stroke-width='2' fill='none' opacity='0.15'/%3E%3Ccircle cx='60' cy='60' r='25' stroke='%239b5de5' stroke-width='1.5' fill='none' opacity='0.1'/%3E%3Ccircle cx='60' cy='60' r='30' stroke='%239b5de5' stroke-width='1' fill='none' opacity='0.06'/%3E%3Ccircle cx='190' cy='180' r='22' stroke='%23f15bb5' stroke-width='2' fill='none' opacity='0.14'/%3E%3Ccircle cx='190' cy='180' r='27' stroke='%23f15bb5' stroke-width='1.5' fill='none' opacity='0.09'/%3E%3Ccircle cx='190' cy='180' r='32' stroke='%23f15bb5' stroke-width='1' fill='none' opacity='0.05'/%3E%3C/pattern%3E%3Cpattern id='neon-stars' width='120' height='120' patternUnits='userSpaceOnUse'%3E%3Cpath d='M30,40 L32,40 L31,38 L32,40 L32,42 L31,40 L30,42 L31,40 Z' fill='%23fee440' opacity='0.6'/%3E%3Cpath d='M30,40 L35,40 L32.5,36 L35,40 L35,45 L32.5,40 L30,45 L32.5,40 Z' fill='%23fee440' opacity='0.2'/%3E%3Cpath d='M85,75 L87,75 L86,73 L87,75 L87,77 L86,75 L85,77 L86,75 Z' fill='%2300f5d4' opacity='0.65'/%3E%3Cpath d='M85,75 L90,75 L87.5,71 L90,75 L90,80 L87.5,75 L85,80 L87.5,75 Z' fill='%2300f5d4' opacity='0.2'/%3E%3Cpath d='M60,25 L62,25 L61,23 L62,25 L62,27 L61,25 L60,27 L61,25 Z' fill='%23f15bb5' opacity='0.55'/%3E%3Ccircle cx='95' cy='35' r='1.5' fill='%2300bbf9' opacity='0.7'/%3E%3Ccircle cx='20' cy='90' r='1.3' fill='%239b5de5' opacity='0.6'/%3E%3Ccircle cx='70' cy='105' r='1.4' fill='%23fee440' opacity='0.65'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23electric-sky)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23purple-burst)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23pink-burst)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23cyan-burst)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23yellow-burst)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23electric-waves)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23energy-rings)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23lightning-bolts)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23neon-stars)'/%3E%3C/svg%3E") no-repeat center center fixed !important;
+    background-size: cover !important;
+    --app-bg-secondary: rgba(14, 8, 32, 0.96); /* Dialog, Offcanvas background*/
+    --app-bg-tertiary: rgba(155, 93, 229, 0.15); /* Hover background, text group icon background */
+
+    --app-text-color-primary: #ffffff; /*Readable on bg-primary - pure white*/
+    --app-text-color-primary-muted: rgba(255, 255, 255, 0.8); /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #f0f0ff; /*Readable on bg-secondary - light lavender*/
+    --app-text-color-tertiary: #fee440; /*Readable on bg-tertiary - electric yellow*/
+
+    --app-highlight-color: #f15bb5; /* Highlight color - electric pink, used for buttons and links*/
+    --app-highlight-color-secondary: rgba(241, 91, 181, 0.3); /* Highlight color, used for selected item*/
+
+    --app-link-color: #00f5d4; /* Link color - electric cyan*/
+    --app-link-hover-color: #fee440; /* Link hover color - electric yellow*/
+
+    /* BUTTONS */
+    /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: linear-gradient(135deg, #9b5de5 0%, #f15bb5 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #00bbf9 0%, #00f5d4 100%);
+    --app-button-primary-text-color: #ffffff;
+    --app-button-primary-text-hover: #0e0820;
+
+    /* Secondary button should be visible on the secondary background. */
+    --app-button-secondary-background: rgba(241, 91, 181, 0.2);
+    --app-button-secondary-background-hover: rgba(0, 245, 212, 0.3);
+    --app-button-secondary-text-color: #f15bb5;
+    --app-button-secondary-text-hover: #00f5d4;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: linear-gradient(180deg, rgba(14, 8, 32, 0.95) 0%, rgba(26, 13, 46, 0.95) 50%, rgba(14, 8, 32, 0.95) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 2px solid rgba(155, 93, 229, 0.4);
+    --app-sidebar-shadow: 0 0 35px rgba(241, 91, 181, 0.3), 0 0 50px rgba(0, 187, 249, 0.2), inset 0 0 25px rgba(254, 228, 64, 0.08);
+    --app-sidebar-menu-item-color: rgba(0, 245, 212, 0.9);
+    --app-sidebar-menu-item-hover-background: rgba(155, 93, 229, 0.2);
+    --app-sidebar-menu-item-hover-color: #fee440;
+    --app-sidebar-menu-item-active-color: #ffffff;
+    --app-sidebar-menu-item-active-border-color: #f15bb5;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(155, 93, 229, 0.35) 0%, rgba(241, 91, 181, 0.35) 100%);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: linear-gradient(90deg, rgba(14, 8, 32, 0.9) 0%, rgba(26, 13, 46, 0.9) 50%, rgba(14, 8, 32, 0.9) 100%);
+    --app-topbar-shadow: 0 5px 30px rgba(241, 91, 181, 0.25), 0 0 50px rgba(155, 93, 229, 0.2);
+    --app-topbar-border: 2px solid rgba(155, 93, 229, 0.35);
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgba(26, 13, 46, 0.8);
+    --app-search-input-text-color: #ffffff;
+    --app-search-input-placeholder-color: rgba(0, 245, 212, 0.65);
+    --app-search-input-border: 2px solid rgba(155, 93, 229, 0.5);
+    --app-search-input-focus-border: 2px solid rgba(241, 91, 181, 0.9);
+    --app-search-input-focus-boxshadow: 0 0 25px rgba(241, 91, 181, 0.5), 0 0 15px rgba(254, 228, 64, 0.3), inset 0 0 15px rgba(0, 187, 249, 0.2);
+    --app-search-results-border-bottom: 3px solid rgba(0, 245, 212, 0.4);
+    --app-search-results-item-background-color: rgba(14, 8, 32, 0.97);
+    --app-search-results-item-text-color: #ffffff;
+    --app-search-results-item-hover-text-color: #fee440;
+    --app-search-results-item-active-text-color: #ffffff;
+    --app-search-results-item-hover-background-color: rgba(155, 93, 229, 0.3);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(155, 93, 229, 0.25) 0%, rgba(241, 91, 181, 0.25) 100%);
+    --app-frontcard-title-text-color: #fee440;
+    --app-frontcard-text-color: #ffffff;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f15bb5'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f15bb5'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: #00f5d4;
+    --app-tab-active-text-color: #fee440;
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(155, 93, 229, 0.15);
+    --app-toolbar-button-text-color: #00f5d4;
+    --app-toolbar-button-hover-bg: rgba(241, 91, 181, 0.25);
+    --app-toolbar-button-disabled-text-color: rgba(0, 245, 212, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, rgba(155, 93, 229, 0.45) 0%, rgba(0, 187, 249, 0.45) 100%);
+    --app-toolbar-button-active-text-color: #fee440;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(155, 93, 229, 0.1);
+    --app-bookresult-list-odditem-hover-background: rgba(241, 91, 181, 0.2);
+    --app-bookresult-list-title-text-color: #fee440;
+    --app-bookresult-list-author-text-color: #00f5d4;
+    --app-bookresult-list-date-text-color: rgba(155, 93, 229, 0.9);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: rgba(26, 13, 46, 0.75);
+    --app-bookdetails-title-text-color: #fee440;
+    --app-bookdetails-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.5), 0 0 40px rgba(241, 91, 181, 0.35), 0 0 30px rgba(0, 187, 249, 0.25);
+    --app-bookdetails-border-radius: 1rem;
+    --app-bookdetails-label-background-color: rgba(155, 93, 229, 0.3);
+    --app-bookdetails-label-text-color: #00f5d4;
+
+    .badge {
+        background: linear-gradient(135deg, rgba(155, 93, 229, 0.5) 0%, rgba(241, 91, 181, 0.5) 50%, rgba(0, 187, 249, 0.5) 100%) !important;
+        color: #fee440 !important;
+        border: 2px solid rgba(254, 228, 64, 0.6) !important;
+        box-shadow: 0 0 20px rgba(241, 91, 181, 0.5), 0 0 15px rgba(0, 245, 212, 0.4), 0 3px 10px rgba(0, 0, 0, 0.3);
+        font-weight: 700;
+        text-shadow: 0 0 10px rgba(254, 228, 64, 0.8), 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+
+    .list-group-item-action:hover {
+        color: #fee440 !important;
+    }
+}
+
+html[dir="rtl"] body[data-theme="Electric Vibes"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(14, 8, 32, 0.9) 0%, rgba(26, 13, 46, 0.9) 50%, rgba(14, 8, 32, 0.9) 100%);
+}

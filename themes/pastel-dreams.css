@@ -1,0 +1,120 @@
+/*
+Author: d3lboy
+Url: https://github.com/PnRSolutions/bookerei-public
+Description: Pastel Dreams - A soft, dreamy theme with gentle pastel pinks, purples, and blues creating a calm, peaceful atmosphere
+*/
+
+body[data-theme="Pastel Dreams"] {
+    /* GENERAL */
+    --app-bg-primary: #1a1625;
+    background: #1a1625 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='dreamy-bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231a1625;stop-opacity:1' /%3E%3Cstop offset='25%25' style='stop-color:%23251d30;stop-opacity:1' /%3E%3Cstop offset='50%25' style='stop-color:%232a1f35;stop-opacity:1' /%3E%3Cstop offset='75%25' style='stop-color:%23251d30;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231a1625;stop-opacity:1' /%3E%3C/linearGradient%3E%3CradialGradient id='pink-dream' cx='20%25' cy='30%25' r='50%25'%3E%3Cstop offset='0%25' style='stop-color:%23ffc8dd;stop-opacity:0.15' /%3E%3Cstop offset='40%25' style='stop-color:%23ffafcc;stop-opacity:0.08' /%3E%3Cstop offset='100%25' style='stop-color:%23ffc8dd;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='purple-dream' cx='80%25' cy='70%25' r='55%25'%3E%3Cstop offset='0%25' style='stop-color:%23cdb4db;stop-opacity:0.18' /%3E%3Cstop offset='45%25' style='stop-color:%23cdb4db;stop-opacity:0.09' /%3E%3Cstop offset='100%25' style='stop-color:%23cdb4db;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='blue-dream' cx='50%25' cy='50%25' r='45%25'%3E%3Cstop offset='0%25' style='stop-color:%23bde0fe;stop-opacity:0.12' /%3E%3Cstop offset='40%25' style='stop-color:%23a2d2ff;stop-opacity:0.06' /%3E%3Cstop offset='100%25' style='stop-color:%23bde0fe;stop-opacity:0' /%3E%3C/radialGradient%3E%3Cpattern id='clouds' width='400' height='300' patternUnits='userSpaceOnUse'%3E%3Cellipse cx='80' cy='60' rx='50' ry='25' fill='%23cdb4db' opacity='0.04'/%3E%3Cellipse cx='60' cy='55' rx='35' ry='18' fill='%23ffc8dd' opacity='0.05'/%3E%3Cellipse cx='100' cy='65' rx='40' ry='20' fill='%23bde0fe' opacity='0.04'/%3E%3Cellipse cx='280' cy='180' rx='60' ry='30' fill='%23a2d2ff' opacity='0.05'/%3E%3Cellipse cx='310' cy='175' rx='45' ry='22' fill='%23ffafcc' opacity='0.04'/%3E%3Cellipse cx='250' cy='185' rx='38' ry='19' fill='%23cdb4db' opacity='0.05'/%3E%3C/pattern%3E%3Cpattern id='sparkles' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Cpath d='M20,30 L22,30 L21,28 L22,30 L22,32 L21,30 L20,32 L21,30 Z' fill='%23ffc8dd' opacity='0.4'/%3E%3Cpath d='M70,65 L72,65 L71,63 L72,65 L72,67 L71,65 L70,67 L71,65 Z' fill='%23bde0fe' opacity='0.5'/%3E%3Cpath d='M45,85 L47,85 L46,83 L47,85 L47,87 L46,85 L45,87 L46,85 Z' fill='%23cdb4db' opacity='0.45'/%3E%3Cpath d='M85,25 L87,25 L86,23 L87,25 L87,27 L86,25 L85,27 L86,25 Z' fill='%23a2d2ff' opacity='0.4'/%3E%3Ccircle cx='15' cy='70' r='0.8' fill='%23ffafcc' opacity='0.6'/%3E%3Ccircle cx='60' cy='20' r='0.7' fill='%23bde0fe' opacity='0.5'/%3E%3Ccircle cx='90' cy='55' r='0.9' fill='%23ffc8dd' opacity='0.6'/%3E%3Ccircle cx='30' cy='90' r='0.6' fill='%23a2d2ff' opacity='0.5'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23dreamy-bg)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23pink-dream)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23purple-dream)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23blue-dream)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23clouds)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23sparkles)'/%3E%3C/svg%3E") no-repeat center center fixed !important;
+    background-size: cover !important;
+    --app-bg-secondary: rgba(26, 22, 37, 0.96); /* Dialog, Offcanvas background*/
+    --app-bg-tertiary: rgba(205, 180, 219, 0.15); /* Hover background, text group icon background */
+
+    --app-text-color-primary: #ffffff; /*Readable on bg-primary*/
+    --app-text-color-primary-muted: rgba(255, 255, 255, 0.75); /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #ffc8dd; /*Readable on bg-secondary*/
+    --app-text-color-tertiary: #a2d2ff; /*Readable on bg-tertiary*/
+
+    --app-highlight-color: #ffafcc; /* Highlight color - pastel pink, used for buttons and links*/
+    --app-highlight-color-secondary: rgba(255, 175, 204, 0.3); /* Highlight color, used for selected item*/
+
+    --app-link-color: #bde0fe; /* Link color - pastel blue*/
+    --app-link-hover-color: #ffc8dd; /* Link hover color - soft pink*/
+
+    /* BUTTONS */
+    /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: linear-gradient(135deg, #ffafcc 0%, #cdb4db 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #ffc8dd 0%, #bde0fe 100%);
+    --app-button-primary-text-color: #1a1625;
+    --app-button-primary-text-hover: #1a1625;
+
+    /* Secondary button should be visible on the secondary background. */
+    --app-button-secondary-background: rgba(255, 175, 204, 0.15);
+    --app-button-secondary-background-hover: rgba(189, 224, 254, 0.25);
+    --app-button-secondary-text-color: #ffafcc;
+    --app-button-secondary-text-hover: #bde0fe;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: linear-gradient(180deg, rgba(26, 22, 37, 0.94) 0%, rgba(37, 29, 48, 0.94) 50%, rgba(26, 22, 37, 0.94) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 1px solid rgba(255, 175, 204, 0.3);
+    --app-sidebar-shadow: 0 0 30px rgba(255, 200, 221, 0.2), inset 0 0 20px rgba(189, 224, 254, 0.08);
+    --app-sidebar-menu-item-color: rgba(189, 224, 254, 0.85);
+    --app-sidebar-menu-item-hover-background: rgba(205, 180, 219, 0.15);
+    --app-sidebar-menu-item-hover-color: #ffc8dd;
+    --app-sidebar-menu-item-active-color: #ffffff;
+    --app-sidebar-menu-item-active-border-color: #ffafcc;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(255, 175, 204, 0.25) 0%, rgba(189, 224, 254, 0.25) 100%);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: linear-gradient(90deg, rgba(26, 22, 37, 0.9) 0%, rgba(37, 29, 48, 0.9) 50%, rgba(26, 22, 37, 0.9) 100%);
+    --app-topbar-shadow: 0 5px 25px rgba(255, 175, 204, 0.15), 0 0 40px rgba(205, 180, 219, 0.12);
+    --app-topbar-border: 1px solid rgba(255, 200, 221, 0.25);
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgba(37, 29, 48, 0.75);
+    --app-search-input-text-color: #ffffff;
+    --app-search-input-placeholder-color: rgba(189, 224, 254, 0.6);
+    --app-search-input-border: 1px solid rgba(205, 180, 219, 0.4);
+    --app-search-input-focus-border: 2px solid rgba(255, 175, 204, 0.7);
+    --app-search-input-focus-boxshadow: 0 0 20px rgba(255, 200, 221, 0.3), inset 0 0 10px rgba(189, 224, 254, 0.15);
+    --app-search-results-border-bottom: 2px solid rgba(205, 180, 219, 0.4);
+    --app-search-results-item-background-color: rgba(26, 22, 37, 0.97);
+    --app-search-results-item-text-color: #ffffff;
+    --app-search-results-item-hover-text-color: #ffc8dd;
+    --app-search-results-item-active-text-color: #ffffff;
+    --app-search-results-item-hover-background-color: rgba(205, 180, 219, 0.2);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(255, 175, 204, 0.2) 0%, rgba(189, 224, 254, 0.2) 100%);
+    --app-frontcard-title-text-color: #ffc8dd;
+    --app-frontcard-text-color: #ffffff;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffafcc'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffafcc'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: #bde0fe;
+    --app-tab-active-text-color: #ffafcc;
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(205, 180, 219, 0.12);
+    --app-toolbar-button-text-color: #bde0fe;
+    --app-toolbar-button-hover-bg: rgba(255, 175, 204, 0.2);
+    --app-toolbar-button-disabled-text-color: rgba(189, 224, 254, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, rgba(255, 175, 204, 0.35) 0%, rgba(189, 224, 254, 0.35) 100%);
+    --app-toolbar-button-active-text-color: #ffffff;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(205, 180, 219, 0.08);
+    --app-bookresult-list-odditem-hover-background: rgba(255, 175, 204, 0.15);
+    --app-bookresult-list-title-text-color: #ffc8dd;
+    --app-bookresult-list-author-text-color: #bde0fe;
+    --app-bookresult-list-date-text-color: rgba(162, 210, 255, 0.9);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: rgba(37, 29, 48, 0.65);
+    --app-bookdetails-title-text-color: #ffc8dd;
+    --app-bookdetails-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.35), 0 0 30px rgba(255, 175, 204, 0.2), 0 0 20px rgba(189, 224, 254, 0.15);
+    --app-bookdetails-border-radius: 1rem;
+    --app-bookdetails-label-background-color: rgba(205, 180, 219, 0.2);
+    --app-bookdetails-label-text-color: #a2d2ff;
+
+    .badge {
+        background: linear-gradient(135deg, rgba(255, 175, 204, 0.4) 0%, rgba(189, 224, 254, 0.4) 100%) !important;
+        color: #ffffff !important;
+        border: 1px solid rgba(255, 200, 221, 0.5) !important;
+        box-shadow: 0 0 12px rgba(255, 175, 204, 0.3), 0 2px 8px rgba(0, 0, 0, 0.2);
+        font-weight: 500;
+    }
+
+    .list-group-item-action:hover {
+        color: #ffc8dd !important;
+    }
+}
+
+html[dir="rtl"] body[data-theme="Pastel Dreams"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(26, 22, 37, 0.9) 0%, rgba(37, 29, 48, 0.9) 50%, rgba(26, 22, 37, 0.9) 100%);
+}

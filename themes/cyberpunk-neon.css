@@ -1,0 +1,119 @@
+/*
+Author: d3lboy
+Url: https://github.com/PnRSolutions/bookerei-public
+Description: Cyberpunk Neon - A futuristic theme with vibrant neon pink/purple colors and digital grid background
+*/
+
+body[data-theme="Cyberpunk Neon"] {
+    /* GENERAL */
+    --app-bg-primary: #0d0221;
+    background: #0d0221 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='cyber-bg' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230d0221;stop-opacity:1' /%3E%3Cstop offset='50%25' style='stop-color:%23170741;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230d0221;stop-opacity:1' /%3E%3C/linearGradient%3E%3Cpattern id='grid' width='50' height='50' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 50 0 L 0 0 0 50' fill='none' stroke='%23ff006e' stroke-width='0.5' opacity='0.15'/%3E%3C/pattern%3E%3Cpattern id='small-grid' width='10' height='10' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 10 0 L 0 0 0 10' fill='none' stroke='%238338ec' stroke-width='0.3' opacity='0.08'/%3E%3C/pattern%3E%3CradialGradient id='glow1' cx='15%25' cy='25%25' r='40%25'%3E%3Cstop offset='0%25' style='stop-color:%23ff006e;stop-opacity:0.12' /%3E%3Cstop offset='50%25' style='stop-color:%23ff006e;stop-opacity:0.05' /%3E%3Cstop offset='100%25' style='stop-color:%23ff006e;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='glow2' cx='85%25' cy='75%25' r='45%25'%3E%3Cstop offset='0%25' style='stop-color:%238338ec;stop-opacity:0.1' /%3E%3Cstop offset='50%25' style='stop-color:%238338ec;stop-opacity:0.04' /%3E%3Cstop offset='100%25' style='stop-color:%238338ec;stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='glow3' cx='50%25' cy='50%25' r='35%25'%3E%3Cstop offset='0%25' style='stop-color:%23fb5607;stop-opacity:0.08' /%3E%3Cstop offset='50%25' style='stop-color:%23fb5607;stop-opacity:0.03' /%3E%3Cstop offset='100%25' style='stop-color:%23fb5607;stop-opacity:0' /%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23cyber-bg)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23small-grid)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23glow1)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23glow2)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23glow3)'/%3E%3C/svg%3E") no-repeat center center fixed !important;
+    background-size: cover !important;
+    --app-bg-secondary: rgba(13, 2, 33, 0.96); /* Dialog, Offcanvas background*/
+    --app-bg-tertiary: rgba(131, 56, 236, 0.15); /* Hover background, text group icon background */
+
+    --app-text-color-primary: #f0e6ff; /*Readable on bg-primary*/
+    --app-text-color-primary-muted: rgba(240, 230, 255, 0.7); /*Readable on bg-primary, used for labels, descriptions, etc.*/
+    --app-text-color-secondary: #ffadfa; /*Readable on bg-secondary*/
+    --app-text-color-tertiary: #ff006e; /*Readable on bg-tertiary*/
+
+    --app-highlight-color: #ff006e; /* Highlight color - Neon pink, used for buttons and links*/
+    --app-highlight-color-secondary: rgba(255, 0, 110, 0.3); /* Highlight color, used for selected item*/
+
+    --app-link-color: #fb5607; /* Link color - Neon orange*/
+    --app-link-hover-color: #ff006e; /* Link hover color - Neon pink*/
+
+    /* BUTTONS */
+    /* Primary button should be visible on the primary background. */
+    --app-button-primary-background: linear-gradient(135deg, #ff006e 0%, #8338ec 100%);
+    --app-button-primary-background-hover: linear-gradient(135deg, #fb5607 0%, #ff006e 100%);
+    --app-button-primary-text-color: #ffffff;
+    --app-button-primary-text-hover: #ffffff;
+
+    /* Secondary button should be visible on the secondary background. */
+    --app-button-secondary-background: rgba(255, 0, 110, 0.15);
+    --app-button-secondary-background-hover: rgba(255, 0, 110, 0.3);
+    --app-button-secondary-text-color: #ff006e;
+    --app-button-secondary-text-hover: #ffffff;
+
+    /* SIDEBAR - navigation panel on the left side*/
+    --app-sidebar-background: linear-gradient(180deg, rgba(13, 2, 33, 0.95) 0%, rgba(23, 7, 65, 0.95) 50%, rgba(13, 2, 33, 0.95) 100%);
+    --app-sidebar-width: 5rem;
+    --app-sidebar-border: 1px solid rgba(255, 0, 110, 0.3);
+    --app-sidebar-shadow: 0 0 30px rgba(255, 0, 110, 0.4), inset 0 0 20px rgba(131, 56, 236, 0.1);
+    --app-sidebar-menu-item-color: rgba(255, 173, 250, 0.8);
+    --app-sidebar-menu-item-hover-background: rgba(255, 0, 110, 0.15);
+    --app-sidebar-menu-item-hover-color: #ff006e;
+    --app-sidebar-menu-item-active-color: #ffffff;
+    --app-sidebar-menu-item-active-border-color: #ff006e;
+    --app-sidebar-menu-item-active-background: linear-gradient(135deg, rgba(255, 0, 110, 0.3) 0%, rgba(131, 56, 236, 0.3) 100%);
+
+    /* TOP BAR - top panel with search box*/
+    --app-topbar-background: linear-gradient(90deg, rgba(13, 2, 33, 0.92) 0%, rgba(23, 7, 65, 0.92) 50%, rgba(13, 2, 33, 0.92) 100%);
+    --app-topbar-shadow: 0 5px 25px rgba(255, 0, 110, 0.3), 0 0 50px rgba(131, 56, 236, 0.15);
+    --app-topbar-border: 1px solid rgba(255, 0, 110, 0.25);
+    --app-topbar-margin-start: 5rem;
+
+    /* SEARCH BOX / autocomplete textbox at the top*/
+    --app-search-input-background-color: rgba(23, 7, 65, 0.7);
+    --app-search-input-text-color: #f0e6ff;
+    --app-search-input-placeholder-color: rgba(255, 0, 110, 0.6);
+    --app-search-input-border: 1px solid rgba(255, 0, 110, 0.4);
+    --app-search-input-focus-border: 2px solid rgba(255, 0, 110, 0.9);
+    --app-search-input-focus-boxshadow: 0 0 20px rgba(255, 0, 110, 0.5), inset 0 0 10px rgba(131, 56, 236, 0.3);
+    --app-search-results-border-bottom: 2px solid rgba(255, 0, 110, 0.4);
+    --app-search-results-item-background-color: rgba(13, 2, 33, 0.97);
+    --app-search-results-item-text-color: #f0e6ff;
+    --app-search-results-item-hover-text-color: #ff006e;
+    --app-search-results-item-active-text-color: #ffffff;
+    --app-search-results-item-hover-background-color: rgba(255, 0, 110, 0.2);
+
+    /* FRONT CARD */
+    --app-frontcard-title-background: linear-gradient(135deg, rgba(255, 0, 110, 0.2) 0%, rgba(131, 56, 236, 0.2) 100%);
+    --app-frontcard-title-text-color: #ff006e;
+    --app-frontcard-text-color: #f0e6ff;
+    --app-carousel-next-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff006e'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --app-carousel-prev-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff006e'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+
+    /* TABS - book details page*/
+    --app-tab-text-color: #ffadfa;
+    --app-tab-active-text-color: #ff006e;
+
+    /* TOOLBAR - top position on page book search results*/
+    --app-toolbar-button-bg: rgba(255, 0, 110, 0.12);
+    --app-toolbar-button-text-color: #ffadfa;
+    --app-toolbar-button-hover-bg: rgba(255, 0, 110, 0.25);
+    --app-toolbar-button-disabled-text-color: rgba(255, 173, 250, 0.4);
+    --app-toolbar-button-active-bg: linear-gradient(135deg, rgba(255, 0, 110, 0.4) 0%, rgba(131, 56, 236, 0.4) 100%);
+    --app-toolbar-button-active-text-color: #ffffff;
+
+    /* BOOK SEARCH RESULTS */
+    --app-bookresult-list-odditem-background: rgba(131, 56, 236, 0.08);
+    --app-bookresult-list-odditem-hover-background: rgba(255, 0, 110, 0.15);
+    --app-bookresult-list-title-text-color: #fb5607;
+    --app-bookresult-list-author-text-color: #ffadfa;
+    --app-bookresult-list-date-text-color: rgba(255, 0, 110, 0.9);
+
+    /* BOOK DETAILS */
+    --app-bookdetails-background: rgba(23, 7, 65, 0.6);
+    --app-bookdetails-title-text-color: #ff006e;
+    --app-bookdetails-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 0, 110, 0.3);
+    --app-bookdetails-border-radius: 0.75rem;
+    --app-bookdetails-label-background-color: rgba(131, 56, 236, 0.25);
+    --app-bookdetails-label-text-color: #ffadfa;
+
+    .badge {
+        background-color: rgba(131, 56, 236, 0.4) !important;
+        color: #ff006e !important;
+        border: 1px solid rgba(255, 0, 110, 0.3) !important;
+        text-shadow: 0 0 8px rgba(255, 0, 110, 0.6);
+    }
+
+    .list-group-item-action:hover {
+        color: #ff006e !important;
+    }
+}
+
+html[dir="rtl"] body[data-theme="Cyberpunk Neon"] {
+    --app-topbar-background: linear-gradient(270deg, rgba(13, 2, 33, 0.92) 0%, rgba(23, 7, 65, 0.92) 50%, rgba(13, 2, 33, 0.92) 100%);
+}
